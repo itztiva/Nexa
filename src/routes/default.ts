@@ -34,18 +34,6 @@ export default function () {
         });
     });
 
-    app.get("/fortnite/api/v2/versioncheck*", async (c) => {
-        return c.json({
-            type: "NO_UPDATE",
-        });
-    });
-
-    app.get("/fortnite/api/versioncheck*", async (c) => {
-        return c.json({
-            type: "NO_UPDATE",
-        });
-    });
-
     app.post("/api/v1/user/setting", async (c) => {
         return c.json({});
     });

@@ -6,7 +6,7 @@ import path from "node:path";
 export default function () {
   app.get("/fortnite/api/cloudstorage/system", async (c) => {
     try {
-      const hotfixesDir = path.join(__dirname, "static/hotfixes");
+      const hotfixesDir = path.join(__dirname, "../../static/hotfixes");
       const csFiles: any = [];
 
       fs.readdirSync(hotfixesDir).forEach((file) => {
@@ -37,7 +37,7 @@ export default function () {
 
   app.get("/fortnite/api/cloudstorage/system/config", async (c) => {
     try {
-      const hotfixesDir = path.join(__dirname, "static/hotfixes");
+      const hotfixesDir = path.join(__dirname, "../../static/hotfixes");
       const csFiles: any = [];
 
       fs.readdirSync(hotfixesDir).forEach((file) => {
@@ -68,11 +68,7 @@ export default function () {
 
   app.get("/fortnite/api/cloudstorage/system/:file", async (c) => {
     try {
-      const filePath = path.join(
-        __dirname,
-        "static/hotfixes",
-        c.req.param("file")
-      );
+      const filePath = path.join(__dirname, "../../static/hotfixes", c.req.param("file"));
       const fileContent = fs.readFileSync(filePath, { encoding: "utf8" });
 
       return c.body(fileContent);
