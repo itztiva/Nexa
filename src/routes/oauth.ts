@@ -51,7 +51,7 @@ export default function () {
       accountId = accountId.split("@")[0];
     }
 
-    c.json({
+    return c.json({
       token: authorization,
       session_id: "9a1f5e80b47d2c3e6f8a0dc592b4fe7d",
       token_type: "bearer",
