@@ -3,13 +3,16 @@
   "module": "src/index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.6"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "chalk": "^5.3.0",
-    "hono": "^4.4.6"
+    "crypto": "^1.0.1",
+    "hono": "^4.4.6",
+    "jsonwebtoken": "^9.0.2"
   }
 }
