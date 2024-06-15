@@ -11,7 +11,7 @@ export default function () {
       allowedActions: [],
       banned: false,
       launcherInfoDTO: {
-        appName: "Fortnite",
+        appName: "Fortnite",  
         catalogItemId: "4fe75bbc5a674f4f9b356b5c90567da5",
         namespace: "fn",
       },
