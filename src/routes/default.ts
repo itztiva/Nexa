@@ -9,11 +9,6 @@ export default function () {
         return c.json([]);
     });
 
-    app.delete("/account/api/oauth/sessions/kill/*", async (c) => {
-        c.status(204);
-        return c.json({});
-    });
-
     app.post("/fortnite/api/game/v2/grant_access/*", async (c) => {
         c.json({});
         return c.status(204);

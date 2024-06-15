@@ -68,4 +68,73 @@ export default function () {
       device_id: "deviceId",
     });
   });
+
+  app.delete("/account/api/oauth/sessions/kill/*", async (c) => {
+    c.status(204);
+    return c.json({});
+  });
+
+  app.get("/account/api/public/account/:accountId", async (c) => {
+    let accountId = c.req.param("accountId");
+
+    if (accountId.includes("@")) {
+      accountId = accountId.split("@")[0];
+    }
+
+    return c.json({
+      id: accountId,
+      displayName: accountId,
+      name: accountId,
+      email: accountId + "@nexa.com",
+      failedLoginAttempts: 0,
+      lastLogin: new Date().toISOString(),
+      numberOfDisplayNameChanges: 0,
+      ageGroup: "UNKNOWN",
+      headless: false,
+      country: "US",
+      lastName: "Server",
+      preferredLanguage: "en",
+      canUpdateDisplayName: false,
+      tfaEnabled: false,
+      emailVerified: true,
+      minorVerified: false,
+      minorExpected: false,
+      minorStatus: "NOT_MINOR",
+      cabinedMode: false,
+      hasHashedEmail: false,
+    });
+  });
+
+  app.get("/account/api/public/account", async (c) => {
+    const response = [];
+
+    const query = c.req.query("accountId");
+
+    if (typeof query === "string") {
+      let accountId = query;
+      if (accountId.includes("@")) {
+        accountId = accountId.split("@")[0];
+      }
+      response.push({
+        id: accountId,
+        displayName: accountId,
+        externalAuths: {},
+      });
+    }
+
+    if (Array.isArray(query)) {
+      for (let accountId of query) {
+        if (accountId.includes("@")) {
+          accountId = accountId.split("@")[0];
+        }
+        response.push({
+          id: accountId,
+          displayName: accountId,
+          externalAuths: {},
+        });
+      }
+    }
+
+    return c.json(response);
+  });
 }
