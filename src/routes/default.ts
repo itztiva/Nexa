@@ -1,4 +1,6 @@
 import app from "..";
+import path from 'node:path'
+import fs from 'node:fs'
 
 export default function () {
     app.post("/datarouter/api/v1/public/data", async (c) => {
@@ -9,6 +11,28 @@ export default function () {
         return c.json([]);
     });
 
+    app.get("/launcher/api/public/distributionpoints", (c) => {
+        return c.json({
+            "distributions": [
+                "http://localhost:5535/",
+                "https://download.epicgames.com/",
+                "https://epicgames-download1.akamaized.net/",
+                "https://fastly-download.epicgames.com/"
+            ]
+        });
+    });
+
+    app.get("/Builds/Fortnite/Content/CloudDir/*.manifest", async (c: any) => {
+        c.header("Content-Type", "application/octet-stream");
+        const manifest: any = fs.readFileSync(path.join(__dirname, "..", "..", "static", "assets", "Moonlight.manifest"));
+        return c.body(manifest);
+    });
+    
+    app.get("/Builds/Fortnite/Content/CloudDir/*.ini", async (c: any) => {
+        const ini: any = fs.readFileSync(path.join(__dirname, "..", "..", "static", "assets", "stuff.ini"));
+        return c.body(ini);
+    });
+    
     app.post("/fortnite/api/game/v2/grant_access/*", async (c) => {
         c.json({});
         return c.status(204);
