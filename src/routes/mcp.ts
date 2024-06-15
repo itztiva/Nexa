@@ -20,7 +20,7 @@ export default function () {
       
         const profileId = query.profileId;
         
-        const files = fs.readdirSync('../static/profiles');
+        const files = fs.readdirSync('static/profiles');
         files.forEach((file) => {
           if (file.endsWith('.json')) {
             const profiles = require(`../../static/profiles/${file}`);
@@ -30,8 +30,7 @@ export default function () {
             if (!profiles.stats.attributes) profiles.stats.attributes = {};
             if (!profiles.commandRevision) profiles.commandRevision = 0;
       
-            const accountId = c.req.param('accountId');
-            const profilePath = path.join(profilesDir, `${profileId}.json`);
+            const profilePath = path.join(profilesDir, `profile_${profileId}.json`);
       
             if (!fs.existsSync(profilePath)) {
               fs.writeFileSync(profilePath, JSON.stringify(profiles, null, 2));
