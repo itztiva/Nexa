@@ -9,8 +9,6 @@ interface requestBody {
 export default function () {
   app.post("/account/api/oauth/token", async (c) => {
     const body: requestBody = await c.req.parseBody();
-
-    console.log(body);
     let accountId = body.username || "moonlight";
     if (accountId.includes("@")) {
       accountId = accountId.split("@")[0];
@@ -52,7 +50,7 @@ export default function () {
     if (accountId.includes("@")) {
       accountId = accountId.split("@")[0];
     }
-    
+
     c.json({
       token: authorization,
       session_id: "9a1f5e80b47d2c3e6f8a0dc592b4fe7d",

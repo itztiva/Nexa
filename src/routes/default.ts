@@ -2,7 +2,7 @@ import app from "..";
 
 export default function () {
     app.post("/datarouter/api/v1/public/data", async (c) => {
-        return c.status(204);
+        return c.json([])
     });
 
     app.get("/account/api/public/account/*/externalAuths", async (c) => {
