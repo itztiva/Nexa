@@ -3,6 +3,8 @@ import { join } from "path";
 import { Hono } from "hono";
 import logger from "../logs/logger";
 
+// thanks skies
+
 async function loadRoute(directory: string, file: string): Promise<void> {
     try {
         const RouteModule = await import(join(directory, file));
