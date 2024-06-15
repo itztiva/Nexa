@@ -51,7 +51,7 @@ export default function () {
   });
 
   app.get("/fortnite/api/game/v2/enabled_features", async (c) => {
-    return c.json({});
+    return c.json([]);
   });
 
   app.post("/fortnite/api/game/v2/tryPlayOnPlatform/account/*", async (c) => {
