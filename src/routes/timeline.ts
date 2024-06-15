@@ -5,7 +5,7 @@ export default function () {
     app.get("/fortnite/api/calendar/v1/timeline", async (c) => {
         const ver = getVersion(c);
       
-        let activeEvents = [
+        let Events = [
           {
             eventType: `EventFlag.Season${ver.season}`,
             activeUntil: "9999-01-01T00:00:00.000Z",
@@ -19,7 +19,7 @@ export default function () {
         ];
       
         if (ver.season == 10) {
-          activeEvents.push({
+          Events.push({
             eventType: "EventFlag.S10_Mystery",
             activeUntil: "9999-01-01T00:00:00.000Z",
             activeSince: "2020-01-01T00:00:00.000Z",
@@ -27,7 +27,7 @@ export default function () {
         }
       
         if (ver.season == 11) {
-          activeEvents.push(
+          Events.push(
             {
               eventType: "EventFlag.LTE_CoinCollectXP",
               activeUntil: "9999-01-01T00:00:00.000Z",
@@ -56,7 +56,7 @@ export default function () {
           );
       
           if (ver.build >= 11.2) {
-            activeEvents.push({
+            Events.push({
               eventType: "EventFlag.Starlight",
               activeUntil: "9999-01-01T00:00:00.000Z",
               activeSince: "2020-01-01T00:00:00.000Z",
@@ -64,7 +64,7 @@ export default function () {
           }
       
           if (ver.build < 11.3) {
-            activeEvents.push(
+            Events.push(
               {
                 eventType: "EventFlag.Season11.Fortnitemares.Quests.Phase1",
                 activeUntil: "9999-01-01T00:00:00.000Z",
@@ -92,7 +92,7 @@ export default function () {
               }
             );
           } else {
-            activeEvents.push(
+            Events.push(
               {
                 eventType: "EventFlag.HolidayDeco",
                 activeUntil: "9999-01-01T00:00:00.000Z",
@@ -123,7 +123,7 @@ export default function () {
         }
       
         if (ver.build == 11.31 || ver.build == 11.4) {
-          activeEvents.push(
+          Events.push(
             {
               eventType: "EventFlag.Winterfest.Tree",
               activeUntil: "9999-01-01T00:00:00.000Z",
@@ -145,11 +145,11 @@ export default function () {
         if (true) {
           const events: any = [];
       
-          const activeEventsSet = new Set(activeEvents.map((e) => e.eventType));
+          const EventsSet = new Set(Events.map((e) => e.eventType));
           for (let i = 0; i < events.length; i++) {
             const event = events[i];
-            if (!activeEventsSet.has(event)) {
-              activeEvents.push({
+            if (!EventsSet.has(event)) {
+              Events.push({
                 eventType: event,
                 activeUntil: "9999-01-01T00:00:00.000Z",
                 activeSince: "2020-01-01T00:00:00.000Z",
@@ -158,20 +158,20 @@ export default function () {
           }
         }
       
-        const todayAtMidnight = new Date();
+        const idk = new Date();
         const dUTC = new Date(
           Date.UTC(
-            todayAtMidnight.getUTCFullYear(),
-            todayAtMidnight.getUTCMonth(),
-            todayAtMidnight.getUTCDate(),
+            idk.getUTCFullYear(),
+            idk.getUTCMonth(),
+            idk.getUTCDate(),
             24,
             0,
             0,
             0
           )
         );
-        const todayOneMinuteBeforeMidnight = new Date(dUTC.getTime() - 60000);
-        const isoDate = todayOneMinuteBeforeMidnight.toISOString();
+        const midnight = new Date(dUTC.getTime() - 60000);
+        const isoDate = midnight.toISOString();
       
         return c.json({
           channels: {
@@ -183,7 +183,7 @@ export default function () {
               states: [
                 {
                   validFrom: "0001-01-01T00:00:00.000Z",
-                  activeEvents: activeEvents,
+                  Events: Events,
                   state: {
                     activeStorefronts: [],
                     eventNamedWeights: {},
