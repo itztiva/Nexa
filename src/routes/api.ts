@@ -48,6 +48,14 @@ export default function () {
     });
   });
 
+  app.get("/fortnite/api/game/v2/br-inventory/account", async (c) => {
+    return c.json({
+      "stash": {
+				"globalcash": 69
+			},
+    })
+  })
+
   app.get("/:trackdata", async (c) => {
     const data: any = await axios.get(
       `https://cdn.qstv.on.epicgames.com/${c.req.param("trackdata")}`
