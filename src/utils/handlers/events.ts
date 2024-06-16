@@ -74,6 +74,14 @@ function getEvents(ver: any) {
       ]);
     }
 
+    if (ver.build === 11.31 || ver.build === 11.4) {
+      events = events.concat([
+        createEvent("EventFlag.Winterfest.Tree"),
+        createEvent("EventFlag.LTE_WinterFest"),
+        createEvent("EventFlag.LTE_WinterFest2019"),
+      ]);
+    }
+
     if (ver.build == 12.41) {
       events.push(createEvent("JCD01"));
     }
@@ -141,6 +149,7 @@ function getEvents(ver: any) {
     if (ver.build == 27.11) {
       // Durian Event
       events.push(createEvent("DL01"));
+      events.push(createEvent("RufusWeek4"))
     }
 
     if (ver.build == 28.1) {
@@ -169,14 +178,6 @@ function getEvents(ver: any) {
     if (ver.build == 29.4) {
       events.push(createEvent("EventFlag.Event_Osiris"));
     }
-  }
-
-  if (ver.build === 11.31 || ver.build === 11.4) {
-    events = events.concat([
-      createEvent("EventFlag.Winterfest.Tree"),
-      createEvent("EventFlag.LTE_WinterFest"),
-      createEvent("EventFlag.LTE_WinterFest2019"),
-    ]);
   }
 
   return events;
