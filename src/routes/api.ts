@@ -1,4 +1,5 @@
 import app from "..";
+import axios from "axios";
 import path from "node:path";
 import fs from "node:fs";
 
@@ -46,6 +47,11 @@ export default function () {
       ],
     });
   });
+
+  app.get("/:trackdata", async (c) => {
+    const data: any = await axios.get(`https://cdn.qstv.on.epicgames.com/${req.params.trackdata}`);
+    return c.json(data.data)
+  })
 
   app.get("/eulatracking/api/public/agreements/fn/account/*", async (c) => {
     return c.json([]);
