@@ -48,13 +48,22 @@ export default function () {
     });
   });
 
+  app.post("/region/check", async (c) => {
+    return c.json({
+      content_id: "AF9yLAAsklQALFTy",
+      allowed: true,
+      resolved: true,
+      limit: "Res=656",
+    });
+  });
+
   app.get("/fortnite/api/game/v2/br-inventory/account", async (c) => {
     return c.json({
-      "stash": {
-				"globalcash": 69
-			},
-    })
-  })
+      stash: {
+        globalcash: 69,
+      },
+    });
+  });
 
   app.get("/:trackdata", async (c) => {
     const data: any = await axios.get(
@@ -133,46 +142,49 @@ export default function () {
   });
 
   app.get("/socialban/api/public/v1/:accountId", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 
-  app.get("/eulatracking/api/public/agreements/fn/account/:accountId", async (c) => {
-    return c.json({})
-  })
+  app.get(
+    "/eulatracking/api/public/agreements/fn/account/:accountId",
+    async (c) => {
+      return c.json({});
+    }
+  );
 
   app.get("/fortnite/api/game/v2/creative/*", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 
   app.get("/affiliate/api/public/affiliates/slug/:affiliateName", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 
   app.get("/content-controls/:accountId", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 
   app.get("/content-controls/:accountId/rules/namespaces/fn", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 
   app.post("/content-controls/:accountId/verify-pin", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 
   app.get("/api/v2/interactions/aggregated/Fortnite/:accountId", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 
   app.get("/api/v1/namespace/fn/worlds/accessibleTo/:accountid", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 
   app.get("/api/v1/namespace/fn/worlds/accessibleTo/:accountID", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 
   app.post("/api/v1/namespace/fn/worlds/account/:accountId", async (c) => {
-    return c.json({})
-  })
+    return c.json({});
+  });
 }
