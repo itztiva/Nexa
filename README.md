@@ -30,6 +30,6 @@ bun run src/index.ts
 
 # Credits
 
-- [Hybrid](https://github.com/HybridFNBR) for Discovery for 26.30+
+- [Hybrid](https://github.com/HybridFNBR) for Discovery for 26.30+ and MOTD
 
 - [Zetax](https://github.com/simplyzetax) for Error responses

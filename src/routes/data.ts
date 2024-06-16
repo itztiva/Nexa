@@ -10,7 +10,6 @@ export default function () {
     );
     const content: any = game.data;
 
-
     if (version.build == 7.4) {
       const playlist = content.playlistinformation.playlist_info.playlists;
 
