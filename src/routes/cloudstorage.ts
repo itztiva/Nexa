@@ -254,7 +254,7 @@ export default function () {
       `ClientSettings-${ver.season}.Sav`
     );
 
-    if (fs.existsSync(file)) return c.text(fs.readFileSync(file));
+    if (fs.existsSync(file)) return c.body(fs.readFileSync(file) as any);
 
     return c.json([]);
   });

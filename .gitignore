@@ -172,6 +172,10 @@ dist
 
 # Finder (MacOS) folder config
 .DS_Store
+
+
+
+# Nexa
 static/profiles/profile_athena.json
 static/profiles/*
 static/ClientSettings/*
