@@ -49,7 +49,7 @@ export default function () {
   });
 
   app.get("/:trackdata", async (c) => {
-    const data: any = await axios.get(`https://cdn.qstv.on.epicgames.com/${req.params.trackdata}`);
+    const data: any = await axios.get(`https://cdn.qstv.on.epicgames.com/${c.req.param("trackdata")}`);
     return c.json(data.data)
   })
 
