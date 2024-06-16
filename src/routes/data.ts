@@ -176,7 +176,8 @@ export default function () {
     return c.json(content);
   });
 
-  app.get("/api/v1/fortnite-br/surfaces/*/target", async (c) => {
+  
+  app.post("/api/v1/fortnite-br/surfaces/*/target", async (c) => {
     return c.json({
       contentType: "collection",
       contentId: "fortnite-br-br-motd-collection",
