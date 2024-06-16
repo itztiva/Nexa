@@ -1,11 +1,12 @@
 import app from "..";
 
+// DO NOT CHANGE ANY OF THIS
 export default function () {
   app.get("/lightswitch/api/service/Fortnite/status", async (c) => {
     return c.json({
       serviceInstanceId: "fortnite",
       status: "UP",
-      message: "Fortnite is online",
+      message: "Fortnite is online",   
       maintenanceUri: null,
       overrideCatalogIds: ["a7f138b2e51945ffbfdacc1af0541053"],
       allowedActions: [],
