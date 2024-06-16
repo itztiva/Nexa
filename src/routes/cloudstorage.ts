@@ -144,6 +144,15 @@ export default function () {
     }
   });
 
+  app.get("/fortnite/api/cloudstorage/user/:accountId", async (c) => {
+    try {
+      return c.json([]);
+    } catch (err) {
+      console.error("Error fetching user cloudstorage:", err);
+      return c.status(500);
+    }
+  });
+
   app.put("/fortnite/api/cloudstorage/user/:accountId/:file", async (c) => {
     const filename = c.req.param("file");
 
