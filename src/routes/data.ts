@@ -267,7 +267,7 @@ export default function () {
 
     return c.json(content);
   });
-
+ // credits to neonite / hybridfnbr
   app.post("/api/v1/fortnite-br/surfaces/*/target", async (c) => {
     return c.json({
       contentType: "collection",
