@@ -16,6 +16,17 @@ export default function () {
     return c.json([]);
   });
 
+  app.post("/affiliate/api/public/affiliates/slug/:affiliateName", async (c) => {
+    const affiliateName = c.req.param("affiliateName")
+    return c.json({
+      id: "aabbccddeeff11223344556677889900",
+      slug: affiliateName,
+      displayName: affiliateName,
+      status: "ACTIVE",
+      verified: true
+    })
+  })
+
   app.get("/fortnite/api/storefront/v2/catalog", async (c) => {
     const v1 = JSON.parse(
       fs.readFileSync(path.join(__dirname, "../../static/shop/v1.json"), "utf8")
