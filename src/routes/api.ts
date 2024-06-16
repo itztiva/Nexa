@@ -52,12 +52,20 @@ export default function () {
     return c.json([]);
   });
 
+  app.post("/content-controls/:accountId/verify-pin", async (c) => {
+    return c.json({
+      data: {
+        pinCorrect: true,
+      },
+    });
+  });
+
   app.get("/fortnite/api/game/v2/privacy/account/:accountId", async (c) => {
     return c.json({
-      "accountId": c.req.param("accountId"),
-      "optOutOfPublicLeaderboards": false
-    })
-  })
+      accountId: c.req.param("accountId"),
+      optOutOfPublicLeaderboards: false,
+    });
+  });
 
   app.post("/region/check", async (c) => {
     return c.json({
@@ -78,7 +86,7 @@ export default function () {
 
   app.get("/:trackdata", async (c) => {
     const data: any = await axios.get(
-      `https://cdn.qstv.on.epicgames.com/${c.req.param("trackdata")}`
+      `https://cdn.qstv.on.epicgames.com/${c.req.param("trackdata")}`,
     );
     return c.json(data.data);
   });
@@ -102,14 +110,14 @@ export default function () {
   app.get("/Builds/Fortnite/Content/CloudDir/*.manifest", async (c: any) => {
     c.header("Content-Type", "application/octet-stream");
     const manifest: any = fs.readFileSync(
-      path.join(__dirname, "..", "..", "static", "assets", "Moonlight.manifest")
+      path.join(__dirname, "..", "..", "static", "assets", "Moonlight.manifest"),
     );
     return c.body(manifest);
   });
 
   app.get("/Builds/Fortnite/Content/CloudDir/*.ini", async (c: any) => {
     const ini: any = fs.readFileSync(
-      path.join(__dirname, "..", "..", "static", "assets", "stuff.ini")
+      path.join(__dirname, "..", "..", "static", "assets", "stuff.ini"),
     );
     return c.body(ini);
   });
@@ -156,12 +164,9 @@ export default function () {
     return c.json({});
   });
 
-  app.get(
-    "/eulatracking/api/public/agreements/fn/account/:accountId",
-    async (c) => {
-      return c.json({});
-    }
-  );
+  app.get("/eulatracking/api/public/agreements/fn/account/:accountId", async (c) => {
+    return c.json({});
+  });
 
   app.get("/fortnite/api/game/v2/creative/*", async (c) => {
     return c.json({});
