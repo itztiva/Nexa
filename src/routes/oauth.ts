@@ -75,6 +75,10 @@ export default function () {
     });
   });
 
+  app.post("/publickey/v2/publickey", async (c) => {
+    return c.json([]);
+  });
+
   app.post("/epic/oauth/v2/token", async (c) => {
     const body: any = await c.req.parseBody();
     const JWT = body.refresh_token.replace("eg1~", "");
