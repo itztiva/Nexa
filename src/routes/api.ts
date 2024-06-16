@@ -52,6 +52,21 @@ export default function () {
     return c.json([]);
   });
 
+  app.get("/content-controls/:accountId", async (c) => {
+    return c.json({
+      data: {
+        ageGate: 0,
+        controlsEnabled: false,
+        maxEpicProfilePrivacy: "none",
+        principalId: c.req.param("accountId"),
+      },
+    });
+  });
+
+  app.get("/content-controls/:accountId/rules/namespaces/fn", async (c) => {
+    return c.json([]);
+  });
+
   app.post("/content-controls/:accountId/verify-pin", async (c) => {
     return c.json({
       data: {
