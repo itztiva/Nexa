@@ -9,6 +9,7 @@ export default function () {
   app.post(
     "/fortnite/api/game/v2/profile/:accountId/client/:operation",
     async (c) => {
+      const body = await c.req.json();
       let MultiUpdate: any = [];
       let profileChanges: any = [];
       let BaseRevision = 0;
@@ -58,11 +59,10 @@ export default function () {
           break;
         case "ClientQuestLogin":
           break;
-        case "EquipBattleRoyaleCustomization":
-          const body = await c.req.json();
+        case "EquipBattleRoyaleCustomization": // br locker 1
           let statName;
           let itemToSlot;
-          let itemToSlotID = body.itemToSlot; 
+          let itemToSlotID = body.itemToSlot;
 
           switch (body.slotName) {
             case "Character":
@@ -173,7 +173,9 @@ export default function () {
               if (!Variants[i].channel) continue;
               if (!Variants[i].active) continue;
 
-              let index = profile.items[itemToSlotID].attributes.variants.findIndex(
+              let index = profile.items[
+                itemToSlotID
+              ].attributes.variants.findIndex(
                 (x: any) => x.channel == Variants[i].channel
               );
 
@@ -181,10 +183,11 @@ export default function () {
                 profile.items[itemToSlotID].attributes.variants.push({
                   channel: Variants[i].channel,
                   active: Variants[i].active,
-                  owned: Variants[i].owned || []
+                  owned: Variants[i].owned || [],
                 });
               } else {
-                profile.items[itemToSlotID].attributes.variants[index].active = Variants[i].active;
+                profile.items[itemToSlotID].attributes.variants[index].active =
+                  Variants[i].active;
               }
             }
 
@@ -195,9 +198,60 @@ export default function () {
               attributeValue: profile.items[itemToSlotID].attributes.variants,
             });
           }
-
-          profile.rvn++;
-          profile.commandRevision++;
+          profile.rvn += 1;
+          profile.commandRevision += 1;
+          break;
+        case "SetCosmeticLockerSlot": // br locker 2
+           if (body.category && body.lockerItem && body.itemToSlot) {
+            let itemToSlot = body.itemToSlot;
+            switch (body.category) {
+              case "Character":
+                profile.items[body.lockerItem].attributes.locker_slots_data.slots.Character.items = [itemToSlot];
+                break;
+              case "Backpack":
+                profile.items[body.lockerItem].attributes.locker_slots_data.slots.Backpack.items = [itemToSlot];
+                break;
+              case "Pickaxe":
+                profile.items[body.lockerItem].attributes.locker_slots_data.slots.Pickaxe.items = [itemToSlot];
+                break;
+              case "Glider":
+                profile.items[body.lockerItem].attributes.locker_slots_data.slots.Glider.items = [itemToSlot];
+                break;
+              case "SkyDiveContrail":
+                profile.items[body.lockerItem].attributes.locker_slots_data.slots.SkyDiveContrail.items = [itemToSlot];
+                break;
+              case "MusicPack":
+                profile.items[body.lockerItem].attributes.locker_slots_data.slots.MusicPack.items = [itemToSlot];
+                break;
+              case "LoadingScreen":
+                profile.items[body.lockerItem].attributes.locker_slots_data.slots.LoadingScreen.items = [itemToSlot];
+                break;
+              case "Dance":
+                const indexWithinSlot = body.slotIndex || 0;
+                if (indexWithinSlot >= 0) {
+                  profile.items[body.lockerItem].attributes.locker_slots_data.slots.Dance.items[indexWithinSlot] = itemToSlot;
+                }
+                break;
+              case "ItemWrap":
+                const indexWithinWrap = body.slotIndex || 0;
+                if (indexWithinWrap >= 0) {
+                  profile.items[body.lockerItem].attributes.locker_slots_data.slots.ItemWrap.items[indexWithinWrap] = itemToSlot;
+                }
+                break;
+              default:
+                break;
+            }
+        
+            profile.rvn += 1;
+            profile.commandRevision += 1;
+        
+            profileChanges.push({
+              changeType: "itemAttrChanged",
+              itemId: body.lockerItem,
+              attributeName: "locker_slots_data",
+              attributeValue: profile.items[body.lockerItem].attributes.locker_slots_data,
+            });
+          }
           break;
         default:
           break;
