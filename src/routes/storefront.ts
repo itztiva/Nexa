@@ -18,15 +18,14 @@ export default function () {
     const v3 = JSON.parse(fs.readFileSync(path.join(__dirname, "../../static/shop/v3.json"), "utf8")); // latest
 
     const ver = getVersion(c);
-
-    if (ver.build >= 30.1) {
-      return c.json(v3);
-    }
-
-    if (ver.build >= 26.3) {
-      return c.json(v2);
-    } else {
-      return c.json(v1);
+    
+    switch (true) {
+      case ver.build >= 30.1:
+        return c.json(v3);
+      case ver.build >= 26.3:
+        return c.json(v2);
+      default:
+        return c.json(v1);
     }
 
   });
