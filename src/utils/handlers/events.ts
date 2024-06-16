@@ -110,12 +110,23 @@ function getEvents(ver: any) {
 
     if (ver.build == 17.5) {
       events.push(createEvent("KEL01"));
-      events.push(createEvent("KEL02"))
+      events.push(createEvent("KEL02"));
     }
 
-    if (ver.build == 18.4) {
-      // Chapter 2 Finale Event
+    if (ver.build == 18.4 || ver.season == 18) {
       events.push(createEvent("GGL01"));
+      events.push(createEvent("GGL02")); // Chapter 2 Finale Event (Countdown)
+      events.push(createEvent("LCCS02")); 
+      events.push(createEvent("LCCS01"));
+      events.push(createEvent("LCCSP01"));
+      events.push(createEvent("CTCS01")); 
+      events.push(createEvent("GCFP01"));
+      events.push(createEvent("GCMFP01"));
+      events.push(createEvent("CSAWS01")); 
+      events.push(createEvent("CSAWS02"));
+      events.push(createEvent("CSAWS03"));
+      events.push(createEvent("CSAWS04")); 
+      events.push(createEvent("CSAWS05")); 
     }
 
     if (ver.build == 20.4) {
