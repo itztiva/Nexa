@@ -1,0 +1,3635 @@
+{
+    "refreshIntervalHrs": 1,
+    "dailyPurchaseHrs": 24,
+    "expiration": "9999-12-31T23:59:59",
+    "storefronts": [
+      {
+        "name": "BRWeeklyStorefront",
+        "catalogEntries": [
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/no3RrNujP8FDPYR0V8RQgZqxRVTDKaqxK5zegQOAEfcvL",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Copaceptic.DAv2_Bundle_Featured_Copaceptic",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.1",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Copaceptic.DAv2_Bundle_Featured_Copaceptic"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.1"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Copaceptic_Bundle.DA_Featured_Copaceptic_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/bXtzIPNSBRseKACAB8uMHhCHlPyCQWSmRwXyyDjxgrpT3",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Meister.DAv2_Bundle_Featured_Meister",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.1",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Meister.DAv2_Bundle_Featured_Meister"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.1"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Meister_Bundle.DA_Featured_Meister_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/0SaZylRIcGhqBg2KhohD26vptQmi10K8cYv9NtOrvDSEg",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_GreatPool.DAv2_Bundle_Featured_Booster_GreatPool",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.2",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_GreatPool.DAv2_Bundle_Featured_Booster_GreatPool"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.2"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_GreatPool_Bundle.DA_Featured_Booster_GreatPool_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/aq12QDQ7tw2X4LG1dqIFmjjvFmVJF9bYFVwumcbk7xmj5",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_GoatRobe.DAv2_Bundle_Featured_GoatRobe",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.2",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_GoatRobe.DAv2_Bundle_Featured_GoatRobe"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.2"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_GoatRobe_Bundle.DA_Featured_GoatRobe_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/xiGz9x2E3ClWdLBXYqKhi3ct7NuRpUAZnJ8Xga1zho71O",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_EhCar.DAv2_Bundle_Featured_EhCar",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.3",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_EhCar.DAv2_Bundle_Featured_EhCar"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.3"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EhCar_Bundle.DA_Featured_EhCar_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/10hhmPlBN2Q77kTHHRoX2XCvmYrCLLbPACb8ydxmS38L3",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Constellationstar.DAv2_Bundle_Featured_Constellationstar",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.3",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Constellationstar.DAv2_Bundle_Featured_Constellationstar"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.3"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Constellationstar_Bundle.DA_Featured_Constellationstar_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/kwDdEIyzzyWGqkvPPrpsi8OIBq9Fenw3In8J0bHXCZWFy",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Wheel_ElectricShock.DAv2_Bundle_Featured_Wheel_ElectricShock",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.4",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Wheel_ElectricShock.DAv2_Bundle_Featured_Wheel_ElectricShock"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.4"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_ElectricShock_Bundle.DA_Featured_Wheel_ElectricShock_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/YlgO7EWT7kUFosJcb0gVFkDPm5GAypvO2PPlAZQ9XJaBG",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Shockwave.DAv2_Bundle_Featured_Booster_Shockwave",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.4",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Shockwave.DAv2_Bundle_Featured_Booster_Shockwave"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.4"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Shockwave_Bundle.DA_Featured_Booster_Shockwave_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/VqJAfWaKzW1JMeJVF96rdqDxYD6KokkUHGMnctCx6bnIg",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Stainless.DAv2_Bundle_Featured_Stainless",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.5",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Stainless.DAv2_Bundle_Featured_Stainless"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.5"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Stainless_Bundle.DA_Featured_Stainless_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/OaR7GkFHuwykw20k5bOtWvXzG9B6GBj1iU5UplpN3wGTC",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_KoalaCar.DAv2_Bundle_Featured_KoalaCar",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.5",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_KoalaCar.DAv2_Bundle_Featured_KoalaCar"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.5"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_KoalaCar_Bundle.DA_Featured_KoalaCar_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [],
+            "dynamicBundleInfo": {
+              "discountedBasePrice": -999999,
+              "regularBasePrice": -999999,
+              "floorPrice": -999999,
+              "currencyType": "MtxCurrency",
+              "currencySubType": "",
+              "displayType": "AmountOff",
+              "bundleItems": []
+            },
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [],
+            "offerType": "DynamicBundle",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_349_Athena_Commando_M_Banana"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -1,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/k56e3hs01LfoSdxbNOqp9JTMBNBehdxvOMY1WVAvkTJDC",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_AlienSummer.DAv2_Bundle_Featured_AlienSummer",
+              "SectionId": "Featured",
+              "LayoutId": "Featured.6",
+              "TileSize": "Size_2_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_AlienSummer.DAv2_Bundle_Featured_AlienSummer"
+              },
+              {
+                "key": "SectionId",
+                "value": "Featured"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_2_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Featured.6"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_AlienSummer_Bundle.DA_Featured_AlienSummer_Bundle"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:SparksPack_PremiumS04"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:SparksPack_PremiumS04"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/UAgnzf81wIsRHguond9mmPcChpesOlrmmvBSfrZMumckX",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_SparksPack_PremiumS04.DAv2_SparksPack_PremiumS04",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.1",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_SparksPack_PremiumS04.DAv2_SparksPack_PremiumS04"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.1"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_SparksPack_PremiumS04.DA_Featured_SparksPack_PremiumS04"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:CID_210_F_FootballGirl_D"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_210_F_FootballGirl_D"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/JGzoNqENzfZ0Uswm4lXLIOUz6jI75llklw8SDqejPh3lN",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_210_F_FootballGirl_D.DAv2_CID_210_F_FootballGirl_D",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.1",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_210_F_FootballGirl_D.DAv2_CID_210_F_FootballGirl_D"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.1"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_210_F_FootballGirl_D.DA_Featured_CID_210_F_FootballGirl_D"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Sparks_Guitar_PlasticFork"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Sparks_Guitar_PlasticFork"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/e42kVNUOkUVhUmlXWm1mMFMtcQjSuqZ9GVN1j1eAhv9i3",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Guitar_PlasticFork.DAv2_Sparks_Guitar_PlasticFork",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.1",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Guitar_PlasticFork.DAv2_Sparks_Guitar_PlasticFork"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.1"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Guitar_PlasticFork.DA_Featured_Sparks_Guitar_PlasticFork"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:Character_CorkFloorSwim"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:Character_CorkFloorSwim"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/EScNESREQqaNvJ7CEIAdagsnodUvtUHyj09oo0BilyPiT",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_CorkFloorSwim.DAv2_Character_CorkFloorSwim",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.1",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_CorkFloorSwim.DAv2_Character_CorkFloorSwim"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.1"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_CorkFloorSwim.DA_Featured_Character_CorkFloorSwim"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Keytar_SignSpin"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Keytar_SignSpin"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/nQIBNltKYC2Xm6ME9V6utQySMT2ByIQVlQwIPEhZtRZD5",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Keytar_SignSpin.DAv2_EID_Keytar_SignSpin",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.1",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Keytar_SignSpin.DAv2_EID_Keytar_SignSpin"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.1"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Keytar_SignSpin.DA_Featured_EID_Keytar_SignSpin"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Guitar_Tuning"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Guitar_Tuning"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/8g7Ua0ldq2ge0luDWhumzLyCukxHnGTjMqib1EqcPu1vl",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Guitar_Tuning.DAv2_EID_Guitar_Tuning",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.2",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Guitar_Tuning.DAv2_EID_Guitar_Tuning"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.2"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Guitar_Tuning.DA_Featured_EID_Guitar_Tuning"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_MonkeyStaff"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_MonkeyStaff"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/sLY9REfQeLAVNM45jkfgqvc1EVJckFiFUH8wzDXKxmP1J",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_MonkeyStaff.DAv2_EID_MonkeyStaff",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.2",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_MonkeyStaff.DAv2_EID_MonkeyStaff"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.2"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_MonkeyStaff.DA_Featured_EID_MonkeyStaff"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Bass_DoubleSpin"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Bass_DoubleSpin"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/R8Yn6DRY7ZhtxPCaUxSNV9oqbDmcPwinajUy2wJQEFsY0",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Bass_DoubleSpin.DAv2_EID_Bass_DoubleSpin",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.2",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Bass_DoubleSpin.DAv2_EID_Bass_DoubleSpin"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.2"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Bass_DoubleSpin.DA_Featured_EID_Bass_DoubleSpin"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Drum_RensDrums"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Drum_RensDrums"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/SAnu49D5q10fn9UHpjRsuRiutPUt8k1iSmuP6G5qtyNSX",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Drum_RensDrums.DAv2_EID_Drum_RensDrums",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.2",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Drum_RensDrums.DAv2_EID_Drum_RensDrums"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.2"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Drum_RensDrums.DA_Featured_EID_Drum_RensDrums"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:CID_207_M_FootballDude_D"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_207_M_FootballDude_D"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/1HGPbXQx4QSh9cgXJEfZDFoe8m6GjoSWGUUaKrxMINvpP",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_207_M_FootballDude_D.DAv2_CID_207_M_FootballDude_D",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.2",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_207_M_FootballDude_D.DAv2_CID_207_M_FootballDude_D"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.2"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_207_M_FootballDude_D.DA_Featured_CID_207_M_FootballDude_D"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_PlasticFork"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_PlasticFork"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/2SVzztlH8WcxsXiECL4o9l0hRRG161QtAwPYjOvyegtYI",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_PlasticFork.DAv2_EID_PlasticFork",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.3",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_PlasticFork.DAv2_EID_PlasticFork"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.3"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_PlasticFork.DA_Featured_EID_PlasticFork"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:CID_210_F_FootballGirl_C"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_210_F_FootballGirl_C"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/QfnQdPPsRwyEzotmyMaBMkRvUfhdNO7K9dau2R6gKprbN",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_210_F_FootballGirl_C.DAv2_CID_210_F_FootballGirl_C",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.3",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_210_F_FootballGirl_C.DAv2_CID_210_F_FootballGirl_C"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.3"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_210_F_FootballGirl_C.DA_Featured_CID_210_F_FootballGirl_C"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Mic_Vacation"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Mic_Vacation"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/fYoop6hod0rrqk3YqMFhEte1UI91FF0cQMGKLGWW39oFd",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Mic_Vacation.DAv2_Mic_Vacation",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.3",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Mic_Vacation.DAv2_Mic_Vacation"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.3"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Mic_Vacation.DA_Featured_Mic_Vacation"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:CID_207_M_FootballDude_C"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_207_M_FootballDude_C"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/E9YKwg6XsSasiXd4bXmWKkI3ycpvw8juHSN7zyMPcnxGa",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_207_M_FootballDude_C.DAv2_CID_207_M_FootballDude_C",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.3",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_207_M_FootballDude_C.DAv2_CID_207_M_FootballDude_C"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.3"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_207_M_FootballDude_C.DA_Featured_CID_207_M_FootballDude_C"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Mic_SlipTheMic"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Mic_SlipTheMic"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/XFBzJsFZqQPHORJnttAnkR7yldDQoqjDGhleA9DJ7i52P",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Mic_SlipTheMic.DAv2_EID_Mic_SlipTheMic",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.3",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Mic_SlipTheMic.DAv2_EID_Mic_SlipTheMic"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.3"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Mic_SlipTheMic.DA_Featured_EID_Mic_SlipTheMic"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaSkyDiveContrail:Contrail_GreatPool"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaSkyDiveContrail:Contrail_GreatPool"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/ZCCKUwDwAGSrElHin6BkmksoKt22wkvABfYiBtajhlIYV",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Contrail_GreatPool.DAv2_Contrail_GreatPool",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.4",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Contrail_GreatPool.DAv2_Contrail_GreatPool"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.4"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Contrail_GreatPool.DA_Featured_Contrail_GreatPool"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Sparks_Guitar_GreatPool"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Sparks_Guitar_GreatPool"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/RgomnmsM7pyOdUVdgiUdnPW7LNIO1uhMBTak3BW4F9FcC",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Guitar_GreatPool.DAv2_Sparks_Guitar_GreatPool",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.4",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Guitar_GreatPool.DAv2_Sparks_Guitar_GreatPool"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.4"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Guitar_GreatPool.DA_Featured_Sparks_Guitar_GreatPool"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Bass_CorkFloor"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Bass_CorkFloor"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/pT66hXi3dIsQNjCBji192zwWsitAPyNNBpldJPTZ5kGVT",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bass_CorkFloor.DAv2_Bass_CorkFloor",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.4",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bass_CorkFloor.DAv2_Bass_CorkFloor"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.4"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Bass_CorkFloor.DA_Featured_Bass_CorkFloor"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:Character_PlasticForkSwim"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:Character_PlasticForkSwim"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/ukjyTjDAZorxEYmL34oUP6MD8zwC0wgAFCee17VKKBz5g",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_PlasticForkSwim.DAv2_Character_PlasticForkSwim",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.4",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_PlasticForkSwim.DAv2_Character_PlasticForkSwim"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.4"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_PlasticForkSwim.DA_Featured_Character_PlasticForkSwim"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Bass_ComicPop"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Bass_ComicPop"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/NHKb4twXGNYH3lKF8mVV6duHcsouqMV3pt3HNcQNxiEtX",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bass_ComicPop.DAv2_Bass_ComicPop",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.4",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bass_ComicPop.DAv2_Bass_ComicPop"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.4"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Bass_ComicPop.DA_Featured_Bass_ComicPop"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:CID_210_F_FootballGirl_B"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_210_F_FootballGirl_B"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/xzSRZV0BqAXhPQgDlASFOmo4fnNwadkKcyEpoe0Wsvs2u",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_210_F_FootballGirl_B.DAv2_CID_210_F_FootballGirl_B",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.5",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_210_F_FootballGirl_B.DAv2_CID_210_F_FootballGirl_B"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.5"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_210_F_FootballGirl_B.DA_Featured_CID_210_F_FootballGirl_B"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Keytar_Yogi"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Keytar_Yogi"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/FxIGiJmK4NeKbN6b0mRq0AuydVvMxXPgIIerI0vOucapP",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Keytar_Yogi.DAv2_EID_Keytar_Yogi",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.5",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Keytar_Yogi.DAv2_EID_Keytar_Yogi"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.5"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Keytar_Yogi.DA_Featured_EID_Keytar_Yogi"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Bass_Vacation"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Bass_Vacation"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/g8hiQoFVPrkHwaSIhHLVgaGIxrnXUXbsda2iimy1lEDeX",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bass_Vacation.DAv2_Bass_Vacation",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.5",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bass_Vacation.DAv2_Bass_Vacation"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.5"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Bass_Vacation.DA_Featured_Bass_Vacation"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Bass_Jumps"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Bass_Jumps"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/qCxrT8hupDYUcaOn4FG0FsyxbZJ87uuWxQQu42VWjUQX5",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Bass_Jumps.DAv2_EID_Bass_Jumps",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.5",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Bass_Jumps.DAv2_EID_Bass_Jumps"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.5"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Bass_Jumps.DA_Featured_EID_Bass_Jumps"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:Character_GreatPoolSwim"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:Character_GreatPoolSwim"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/qfW0oahg3KmFNBBrRZT3F2A34OgXHe8CTopO7GyfN2nje",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_GreatPoolSwim.DAv2_Character_GreatPoolSwim",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.5",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_GreatPoolSwim.DAv2_Character_GreatPoolSwim"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.5"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_GreatPoolSwim.DA_Featured_Character_GreatPoolSwim"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Sparks_Guitar_Vacation"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Sparks_Guitar_Vacation"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/RGpmBmCXb4gop5jHjJEsASLdjOK8edk6OFm2lnrJYQyQG",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Guitar_Vacation.DAv2_Sparks_Guitar_Vacation",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.6",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Guitar_Vacation.DAv2_Sparks_Guitar_Vacation"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.6"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Guitar_Vacation.DA_Featured_Sparks_Guitar_Vacation"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Sparks_Drum_CrowCall"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Sparks_Drum_CrowCall"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/tuKkQnB9gtq8u6E2yVxAxene1tqawCdqhqfCXMhdh17AE",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Drum_CrowCall.DAv2_Sparks_Drum_CrowCall",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.6",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Drum_CrowCall.DAv2_Sparks_Drum_CrowCall"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.6"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Drum_CrowCall.DA_Featured_Sparks_Drum_CrowCall"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Drum_DrumRun"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Drum_DrumRun"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/0pjCBL5zqhtxzZzGv5u47dKwN1FjhZ1aUhvusO70BbAcX",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Drum_DrumRun.DAv2_EID_Drum_DrumRun",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.6",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Drum_DrumRun.DAv2_EID_Drum_DrumRun"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.6"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Drum_DrumRun.DA_Featured_EID_Drum_DrumRun"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Sparks_Drum_Vacation"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Sparks_Drum_Vacation"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/k1bB6X1RzIGazByQ1kqG77nObngIz3LHrDk5ntC5s7T6x",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Drum_Vacation.DAv2_Sparks_Drum_Vacation",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.6",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Drum_Vacation.DAv2_Sparks_Drum_Vacation"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.6"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Drum_Vacation.DA_Featured_Sparks_Drum_Vacation"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:Character_Commando011"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:Character_Commando011"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/jimTumXtZrGeQXQHccCkuS6utX8Upg7vDlFr341r4Q8gK",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_Commando011.DAv2_Character_Commando011",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.6",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_Commando011.DAv2_Character_Commando011"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.6"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_Commando011.DA_Featured_Character_Commando011"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_GreatPool"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_GreatPool"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/GPkGJXe1dodiPRyz3xKrnfpv5kcIHEYPM6Nhft8wyYBhN",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_GreatPool.DAv2_EID_GreatPool",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.7",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_GreatPool.DAv2_EID_GreatPool"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.7"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_GreatPool.DA_Featured_EID_GreatPool"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Guitar_RoundHouseSpin"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Guitar_RoundHouseSpin"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/gMFIdcKmrhgmP7dtGncq3iz0w3vFMtDqCHwDqj8NHEqTZ",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Guitar_RoundHouseSpin.DAv2_EID_Guitar_RoundHouseSpin",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.7",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Guitar_RoundHouseSpin.DAv2_EID_Guitar_RoundHouseSpin"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.7"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Guitar_RoundHouseSpin.DA_Featured_EID_Guitar_RoundHouseSpin"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:CID_207_M_FootballDude_B"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:CID_207_M_FootballDude_B"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/XJaQde8Yh3cRYOyxGMhIVvYhSlrVYy8IPxduvlIALzoCt",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_207_M_FootballDude_B.DAv2_CID_207_M_FootballDude_B",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.7",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_CID_207_M_FootballDude_B.DAv2_CID_207_M_FootballDude_B"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.7"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_207_M_FootballDude_B.DA_Featured_CID_207_M_FootballDude_B"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Sparks_Keytar_Vacation"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Sparks_Keytar_Vacation"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/pvisGWOlowsbCIrMOJLfLKDp1p28ROMZR9wP3G2jDzTJZ",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Keytar_Vacation.DAv2_Sparks_Keytar_Vacation",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.7",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Keytar_Vacation.DAv2_Sparks_Keytar_Vacation"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.7"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Keytar_Vacation.DA_Featured_Sparks_Keytar_Vacation"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Keytar_Surfing"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Keytar_Surfing"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/2NgD7vgzCuCo2hCkDXeG8EpxUbmOGn0mI7C4SQNQLrUlr",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Keytar_Surfing.DAv2_EID_Keytar_Surfing",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.7",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Keytar_Surfing.DAv2_EID_Keytar_Surfing"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.7"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Keytar_Surfing.DA_Featured_EID_Keytar_Surfing"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaDance:EID_Guitar_GuitarDrills"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaDance:EID_Guitar_GuitarDrills"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/Bsg8ukYjSxLLOq5bWCpHBLq9mW7sUJmsY2pnOqgkCl7wx",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Guitar_GuitarDrills.DAv2_EID_Guitar_GuitarDrills",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.8",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_Guitar_GuitarDrills.DAv2_EID_Guitar_GuitarDrills"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.8"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_EID_Guitar_GuitarDrills.DA_Featured_EID_Guitar_GuitarDrills"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Mic_ComicPop"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Mic_ComicPop"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/ubxxudBB82Xi5rW7zCBRPxb6xWFg05kRUOSx4m4cvWN5v",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Mic_ComicPop.DAv2_Mic_ComicPop",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.8",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Mic_ComicPop.DAv2_Mic_ComicPop"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.8"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Mic_ComicPop.DA_Featured_Mic_ComicPop"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "AthenaCharacter:Character_CrowCallSwim"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "AthenaCharacter:Character_CrowCallSwim"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/IUZbU4YAVf62QFGsEv5euAy6gOE1lapySVLqAMns0XKQo",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_CrowCallSwim.DAv2_Character_CrowCallSwim",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.8",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_CrowCallSwim.DAv2_Character_CrowCallSwim"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.8"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_CrowCallSwim.DA_Featured_Character_CrowCallSwim"
+          },
+          {
+            "devName": "[VIRTUAL]1 x Funny Thing for -9 MtxCurrency",
+            "fulfillmentIds": [],
+            "dailyLimit": -1,
+            "weeklyLimit": -1,
+            "monthlyLimit": -1,
+            "categories": [],
+            "prices": [
+              {
+                "currencyType": "MtxCurrency",
+                "currencySubType": "",
+                "regularPrice": -999999,
+                "dynamicRegularPrice": -999999,
+                "finalPrice": -999999,
+                "saleExpiration": "9999-12-31T23:59:59",
+                "basePrice": -999999
+              }
+            ],
+            "matchFilter": "",
+            "filterWeight": 0.0,
+            "appStoreId": [],
+            "requirements": [
+              {
+                "requirementType": "DenyOnItemOwnership",
+                "minQuantity": 1,
+                "requiredId": "TBD:Sparks_Guitar_Blob"
+              }
+            ],
+            "offerType": "StaticPrice",
+            "giftInfo": {
+              "bIsEnabled": true,
+              "forcedGiftBoxTemplateId": "",
+              "purchaseRequirements": [],
+              "giftRecordIds": []
+            },
+            "refundable": true,
+            "itemGrants": [
+              {
+                "quantity": 10,
+                "templateId": "TBD:Sparks_Guitar_Blob"
+              }
+            ],
+            "additionalGrants": [],
+            "sortPriority": -2,
+            "catalogGroupPriority": 0,
+            "offerId": "v2:/YP7tFyztCV9fJip00BsDlyZBpE62TaieXc5EPfxes601h",
+            "meta": {
+              "AnalyticOfferGroupId": "ISTHISNEEDED??",
+              "FirstSeen": "31/12/9999",
+              "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Guitar_Blob.DAv2_Sparks_Guitar_Blob",
+              "SectionId": "Daily",
+              "LayoutId": "Daily.8",
+              "TileSize": "Size_1_x_2"
+            },
+            "metaInfo": [
+              {
+                "key": "NewDisplayAssetPath",
+                "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Guitar_Blob.DAv2_Sparks_Guitar_Blob"
+              },
+              {
+                "key": "SectionId",
+                "value": "Daily"
+              },
+              {
+                "key": "TileSize",
+                "value": "Size_1_x_2"
+              },
+              {
+                "key": "LayoutId",
+                "value": "Daily.8"
+              }
+            ],
+            "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Guitar_Blob.DA_Featured_Sparks_Guitar_Blob"
+          }
+        ]
+      }
+    ]
+  }
