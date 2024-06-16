@@ -145,11 +145,53 @@ export default function () {
   });
 
   app.get("/fortnite/api/cloudstorage/user/:accountId", async (c) => {
+    const accountId = c.req.param("accountId");
     try {
+      let clientSettingsPath = path.join(
+        __dirname,
+        "..",
+        "..",
+        "static",
+        "ClientSettings"
+      );
+      if (!fs.existsSync(clientSettingsPath)) fs.mkdirSync(clientSettingsPath);
+
+      const ver = getVersion(c);
+
+      let file = path.join(
+        clientSettingsPath,
+        `ClientSettings-${ver.season}.Sav`
+      );
+
+      if (fs.existsSync(file)) {
+        const ParsedFile = fs.readFileSync(file, "latin1");
+        const ParsedStats = fs.statSync(file);
+
+        return c.json([
+          {
+            uniqueFilename: "ClientSettings.Sav",
+            filename: "ClientSettings.Sav",
+            hash: crypto.createHash("sha1").update(ParsedFile).digest("hex"),
+            hash256: crypto
+              .createHash("sha256")
+              .update(ParsedFile)
+              .digest("hex"),
+            length: Buffer.byteLength(ParsedFile),
+            contentType: "application/octet-stream",
+            uploaded: ParsedStats.mtime,
+            storageType: "S3",
+            storageIds: {},
+            accountId: accountId,
+            doNotCache: false,
+          },
+        ]);
+      }
+
       return c.json([]);
     } catch (err) {
       console.error("Error fetching user cloudstorage:", err);
-      return c.status(500);
+      c.status(500);
+      return c.json([]);
     }
   });
 
@@ -193,7 +235,7 @@ export default function () {
   });
 
   app.get("/fortnite/api/cloudstorage/user/:accountId/:file", async (c) => {
-     const clientSettingsPath = path.join(
+    const clientSettingsPath = path.join(
       __dirname,
       "..",
       "..",
@@ -212,11 +254,7 @@ export default function () {
       `ClientSettings-${ver.season}.Sav`
     );
 
-    if (fs.existsSync(file)) {
-      const buffer = fs.readFileSync(file);
-      const data = buffer.toString("base64");
-      return c.body(data);
-    }
+    if (fs.existsSync(file)) return c.text(fs.readFileSync(file));
 
     return c.json([]);
   });

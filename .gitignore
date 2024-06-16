@@ -174,3 +174,4 @@ dist
 .DS_Store
 static/profiles/profile_athena.json
 static/profiles/*
+static/ClientSettings/*
