@@ -49,9 +49,15 @@ export default function () {
   });
 
   app.get("/:trackdata", async (c) => {
-    const data: any = await axios.get(`https://cdn.qstv.on.epicgames.com/${c.req.param("trackdata")}`);
-    return c.json(data.data)
-  })
+    const data: any = await axios.get(
+      `https://cdn.qstv.on.epicgames.com/${c.req.param("trackdata")}`
+    );
+    return c.json(data.data);
+  });
+
+  app.get("/presence/api/v1/_/:accountId/settings/subscriptions", async (c) => {
+    return c.json([]);
+  });
 
   app.get("/eulatracking/api/public/agreements/fn/account/*", async (c) => {
     return c.json([]);
