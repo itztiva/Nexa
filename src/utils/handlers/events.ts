@@ -100,10 +100,17 @@ function getEvents(ver: any) {
 
     if (ver.build == 17.3) {
       events.push(createEvent("BEL01"));
+      events.push(createEvent("BEL02"));
+      events.push(createEvent("BEP02"));
+      events.push(createEvent("BPLS"));
+      events.push(createEvent("BTP"));
+      events.push(createEvent("BAP"));
+      events.push(createEvent("BTL01"));
     }
 
     if (ver.build == 17.5) {
       events.push(createEvent("KEL01"));
+      events.push(createEvent("KEL02"))
     }
 
     if (ver.build == 18.4) {
@@ -114,6 +121,7 @@ function getEvents(ver: any) {
     if (ver.build == 20.4) {
       // Collision Event
       events.push(createEvent("AL01"));
+      events.push(createEvent("AL02"));
     }
 
     if (ver.build == 21.4) {
@@ -129,6 +137,7 @@ function getEvents(ver: any) {
     if (ver.build == 23.1) {
       // Winterfest 2022
       events.push(createEvent("CalendarEvent_Season23_Winterfest"));
+      events.push(createEvent("EventFlag.LTE_WinterFestTab"));
     }
 
     if (ver.build == 23.5) {
@@ -149,9 +158,10 @@ function getEvents(ver: any) {
     if (ver.build == 27.11) {
       // Durian Event
       events.push(createEvent("DL01"));
-  //    events.push(createEvent("RufusWeek2"))
-    //  events.push(createEvent("RufusWeek3"))
-      events.push(createEvent("RufusWeek4"))
+      events.push(createEvent("DL02"));
+      //    events.push(createEvent("RufusWeek2"))
+      //  events.push(createEvent("RufusWeek3"))
+      events.push(createEvent("RufusWeek4"));
     }
 
     if (ver.build == 28.1) {
@@ -167,18 +177,32 @@ function getEvents(ver: any) {
     if (ver.build == 28.3) {
       //Pre-Emergence Event
       events.push(createEvent("CH5S1CPPE"));
-    } 
+    }
 
     if (ver.build == 29.0) {
       events.push(createEvent("EventFlag.Event_S29_SeasonalActivation"));
     }
 
-    if (ver.build == 29.2) {
+    if (ver.build == 29.2 || ver.build == 29.3) {
       events.push(createEvent("EventFlag.Event_S29_ColdDay"));
+      events.push(createEvent("AtlaShrines"));
+      events.push(createEvent("AtlaScrolls"));
+      events.push(createEvent("AtlaChests"));
     }
 
     if (ver.build == 29.4) {
       events.push(createEvent("EventFlag.Event_Osiris"));
+      events.push(createEvent("SUPERSPORT_BUILDUP_1"));
+      events.push(createEvent("SUPERSPORT_BUILDUP_2"));
+      events.push(createEvent("SUPERSPORT_BUILDUP_3"));
+      events.push(createEvent("SUPERSPORT_CHARGE_1"));
+      events.push(createEvent("SUPERSPORT_STRIKE_1"));
+      events.push(createEvent("SUPERSPORT_CHARGE_2"));
+      events.push(createEvent("SUPERSPORT_STRIKE_2"));
+      events.push(createEvent("SUPERSPORT_CHARGE_3"));
+      events.push(createEvent("SUPERSPORT_STRIKE_3"));
+      events.push(createEvent("SUPERSPORT_SANDSTORM"));
+      events.push(createEvent("SUPERSPORT_LIGHT_2"));
     }
   }
 
