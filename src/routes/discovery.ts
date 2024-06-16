@@ -1,5 +1,6 @@
 import app from "..";
 import getVersion from "../utils/handlers/getVersion";
+import { Nexa } from "../utils/handlers/errors";
 import discoveryResponses from "../../static/discovery/events";
 import path from "node:path";
 import fs from "node:fs";
@@ -8,6 +9,7 @@ import crypto from "crypto";
 export default function () {
   app.get("/fortnite/api/discovery/accessToken/*", async (c) => {
     const useragent: any = c.req.header("user-agent");
+    if (!useragent) return c.json(Nexa.internal.invalidUserAgent)
     const regex = useragent.match(/\+\+Fortnite\+Release-\d+\.\d+/);
     return c.json({
       branchName: regex[0],
