@@ -3,8 +3,19 @@ import getVersion from "../utils/handlers/getVersion";
 import discoveryResponses from "../../static/discovery/events";
 import path from "node:path";
 import fs from "node:fs";
+import crypto from "crypto";
 
 export default function () {
+  app.get("/fortnite/api/discovery/accessToken/*", async (c) => {
+    const useragent: any = c.req.header("user-agent");
+    const regex = useragent.match(/\+\+Fortnite\+Release-\d+\.\d+/);
+    return c.json({
+      branchName: regex[0],
+      appId: "Fortnite",
+      token: `${crypto.randomBytes(10).toString("hex")}=`,
+    });
+  });
+
   app.post("/api/v1/assets/Fortnite/*", async (c) => {
     const assets = {
       FortCreativeDiscoverySurface: {
@@ -125,13 +136,15 @@ export default function () {
   app.post("/api/v1/discovery/surface/*", async (c) => {
     const Normal = require(`../../static/discovery/menu.json`);
 
-    return c.json(Normal)
+    return c.json(Normal);
   });
 
   app.post("/links/api/fn/mnemonic", async (c) => {
     const Normal = require(`../../static/discovery/menu.json`);
 
-    const defaultResponse = Normal.Panels[0].Pages[0].results.map((result: any) => result.linkData);
+    const defaultResponse = Normal.Panels[0].Pages[0].results.map(
+      (result: any) => result.linkData
+    );
     return c.json(defaultResponse);
   });
 }

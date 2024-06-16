@@ -10,7 +10,7 @@ interface requestBody {
 export default function () {
   app.post("/account/api/oauth/token", async (c) => {
     const body: requestBody = await c.req.parseBody();
-    let accountId = body.username || "moonlight";
+    let accountId = body.username || "nexa";
     if (accountId.includes("@")) {
       accountId = accountId.split("@")[0];
     }
@@ -40,6 +40,128 @@ export default function () {
       app: "fortnite",
       in_app_id: accountId,
       device_id: "deviceId",
+    });
+  });
+
+  app.post("/auth/v1/oauth/token", async (c) => {
+    let access_token = jwt.sign(
+      {
+        clientId: "ec684b8c687f479fadea3cb2ad83f5c6",
+        role: "GameClient",
+        productId: "prod-fn",
+        iss: "eos",
+        env: "prod",
+        organizationId: "o-aa83a0a9bc45e98c80c1b1c9d92e9e",
+        features: [],
+        deploymentId: "62a9473a2dca46b29ccf17577fcf42d7",
+        sandboxId: "fn",
+        tokenType: "clientToken",
+        exp: 9668532724,
+        iat: 1668529124,
+        jti: "1b10b89e6fea4c45a083fe04f9a71fc3",
+      },
+      "NexaKey"
+    );
+    return c.json({
+      access_token: access_token,
+      token_type: "bearer",
+      expires_at: "9999-12-31T23:59:59.999Z",
+      features: ["AntiCheat", "Connect", "Ecom"],
+      organization_id: "o-aa83a0a9bc45e98c80c1b1c9d92e9e",
+      product_id: "prod-fn",
+      sandbox_id: "fn",
+      deployment_id: "62a9473a2dca46b29ccf17577fcf42d7",
+      expires_in: 115200,
+    });
+  });
+
+  app.post("/epic/oauth/v2/token", async (c) => {
+    const body: any = await c.req.parseBody();
+    const JWT = body.refresh_token.replace("eg1~", "");
+    let decoded;
+
+    try {
+      decoded = jwt.verify(JWT, "NexaKey") as jwt.JwtPayload;
+    } catch (err) {
+      throw err;
+    }
+
+    let access_token = jwt.sign(
+      {
+        sub: decoded.email,
+        pfsid: "fn",
+        iss: "https://api.epicgames.dev/epic/oauth/v1",
+        dn: decoded.email,
+        nonce: "n-01/jkXYh/9P5JimUEpSisDyK3Xw=",
+        pfpid: "prod-fn",
+        sec: 1,
+        aud: "ec684b8c687f479fadea3cb2ad83f5c6",
+        pfdid: "62a9473a2dca46b29ccf17577fcf42d7",
+        t: "epic_id",
+        scope: c.req.param("scope"),
+        appid: "fghi4567FNFBKFz3E4TROb0bmPS8h1GW",
+        exp: 9668536326,
+        iat: 1668529126,
+        jti: "c01f29504dcd42f9b68cf55759392928",
+      },
+      "NexaKey"
+    );
+
+    let refresh_token = jwt.sign(
+      {
+        sub: decoded.email,
+        pfsid: "fn",
+        iss: "https://api.epicgames.dev/epic/oauth/v1",
+        dn: decoded.email,
+        pfpid: "prod-fn",
+        aud: "ec684b8c687f479fadea3cb2ad83f5c6",
+        pfdid: "62a9473a2dca46b29ccf17577fcf42d7",
+        t: "epic_id",
+        appid: "fghi4567FNFBKFz3E4TROb0bmPS8h1GW",
+        scope: c.req.param("scope"),
+        exp: 9668557926,
+        iat: 1668529126,
+        jti: "c01f29504dcd42f9b68cf55759392928",
+      },
+      "NexaKey"
+    );
+
+    let id_token = jwt.sign(
+      {
+        sub: decoded.email,
+        pfsid: "fn",
+        iss: "https://api.epicgames.dev/epic/oauth/v1",
+        dn: decoded.email,
+        nonce: "n-e3Kcqw0hulXkbebFRBL8o5AwL3M=",
+        pfpid: "prod-fn",
+        aud: "ec684b8c687f479fadea3cb2ad83f5c6",
+        pfdid: "62a9473a2dca46b29ccf17577fcf42d7",
+        t: "id_token",
+        appid: "fghi4567FNFBKFz3E4TROb0bmPS8h1GW",
+        exp: 9668536326,
+        iat: 1668529126,
+        jti: "c01f29504dcd42f9b68cf55759392928",
+      },
+      "NexaKey"
+    );
+
+    return c.json({
+      scope: "basic_profile friends_list openid presence",
+      token_type: "bearer",
+      acr: "AAL1",
+      access_token: "eg1~" + access_token,
+      expires_in: 7200,
+      expires_at: "9999-12-31T23:59:59.999Z",
+      refresh_token: "eg1~" + refresh_token,
+      refresh_expires_in: 28800,
+      refresh_expires_at: "9999-12-31T23:59:59.999Z",
+      account_id: decoded.email,
+      client_id: "ec684b8c687f479fadea3cb2ad83f5c6",
+      application_id: "fghi4567FNFBKFz3E4TROb0bmPS8h1GW",
+      selected_account_id: decoded.email,
+      id_token: id_token,
+      merged_accounts: [],
+      auth_time: new Date().toISOString(),
     });
   });
 
