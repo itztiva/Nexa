@@ -8,7 +8,99 @@ export default function () {
     const game: any = await axios.get(
       "https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game"
     );
-    const content: any = game.data;
+    let content: any = game.data;
+
+    content = Object.assign(
+      {},
+      content,
+      {
+        emergencynotice: {
+          news: {
+            platform_messages: [],
+            _type: "Battle Royale News",
+            messages: [
+              {
+                hidden: false,
+                _type: "CommonUI Simple Message Base",
+                subgame: "br",
+                body: "Made by Itztiva \nDiscord: https://discord.gg/nexa-1229545680641462282",
+                title: "Nexa",
+                spotlight: false,
+              },
+            ],
+          },
+          "jcr:isCheckedOut": true,
+          _title: "emergencynotice",
+          _noIndex: false,
+          alwaysShow: true,
+          "jcr:baseVersion":
+            "a7ca237317f1e761d4ee60-7c40-45a8-aa3e-bb0a2ffa9bb5",
+          _activeDate: "2018-08-06T19:00:26.217Z",
+          lastModified: "2020-10-30T04:50:59.198Z",
+          _locale: "en-US",
+        },
+      },
+      {
+        emergencynoticev2: {
+          "jcr:isCheckedOut": true,
+          _title: "emergencynoticev2",
+          _noIndex: false,
+          emergencynotices: {
+            _type: "Emergency Notices",
+            emergencynotices: [
+              {
+                hidden: false,
+                _type: "CommonUI Emergency Notice Base",
+                title: "Nexa",
+                body: "Made by Itztiva \nDiscord: https://discord.gg/nexa-1229545680641462282",
+              },
+            ],
+          },
+          _activeDate: "2018-08-06T19:00:26.217Z",
+          lastModified: "2021-03-17T15:07:27.924Z",
+          _locale: "en-US",
+        },
+        battleroyalenewsv2: {
+          news: {
+            motds: [
+              {
+                entryType: "Website",
+                image:
+                  "https://media.discordapp.net/attachments/1241535588394471545/1251931646555324426/Izdelek_brez_naslova_33.png?ex=66705fb4&is=666f0e34&hm=730eb730ea6523eabe6ec8956c9d1fcb06719189f0dbf76358c1f9c55b366143&=&format=webp&quality=lossless&width=1200&height=389",
+                tileImage:
+                  "https://media.discordapp.net/attachments/1241535588394471545/1251931646555324426/Izdelek_brez_naslova_33.png?ex=66705fb4&is=666f0e34&hm=730eb730ea6523eabe6ec8956c9d1fcb06719189f0dbf76358c1f9c55b366143&=&format=webp&quality=lossless&width=1200&height=389",
+                videoMute: false,
+                hidden: false,
+                tabTitleOverride: "Nexa",
+                _type: "CommonUI Simple Message MOTD",
+                title: "Nexa",
+                body: "Made by Itztiva \nDiscord: https://discord.gg/nexa-1229545680641462282",
+                videoLoop: false,
+                videoStreamingEnabled: false,
+                sortingPriority: 0,
+                id: "NexaNewsBR",
+                videoAutoplay: false,
+                videoFullscreen: false,
+                spotlight: false,
+                websiteURL: "https://discord.gg/nexa-1229545680641462282",
+                websiteButtonText: "Join our discord",
+              },
+            ],
+          },
+          "jcr:isCheckedOut": true,
+          _title: "battleroyalenewsv2",
+          header: "",
+          style: "None",
+          _noIndex: false,
+          alwaysShow: false,
+          "jcr:baseVersion":
+            "a7ca237317f1e704b1a186-6846-4eaa-a542-c2c8ca7e7f29",
+          _activeDate: "2020-01-21T14:00:00.000Z",
+          lastModified: "2021-02-10T23:57:48.837Z",
+          _locale: "en-US",
+        },
+      }
+    );
 
     if (version.build == 7.4) {
       const playlist = content.playlistinformation.playlist_info.playlists;
