@@ -173,3 +173,4 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 static/profiles/profile_athena.json
+static/profiles/*
