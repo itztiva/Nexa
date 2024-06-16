@@ -179,3 +179,4 @@ dist
 static/profiles/profile_athena.json
 static/profiles/*
 static/ClientSettings/*
+.vscode/settings.json
