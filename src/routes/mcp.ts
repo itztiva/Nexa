@@ -32,7 +32,10 @@ export default function () {
           if (!profiles.stats.attributes) profiles.stats.attributes = {};
           if (!profiles.commandRevision) profiles.commandRevision = 0;
 
-          const profilePath = path.join(profilesDir, `profile_${profileId}.json`);
+          const profilePath = path.join(
+            profilesDir,
+            `profile_${profileId}.json`
+          );
 
           if (!fs.existsSync(profilePath)) {
             fs.writeFileSync(profilePath, JSON.stringify(profiles, null, 2));
@@ -59,6 +62,8 @@ export default function () {
           const body = await c.req.json();
           let statName;
           let itemToSlot;
+          let itemToSlotID = body.itemToSlot; 
+
           switch (body.slotName) {
             case "Character":
               statName = "favorite_character";
@@ -158,6 +163,39 @@ export default function () {
             default:
               break;
           }
+          let Variants = body.variantUpdates;
+          if (Array.isArray(Variants)) {
+            if (!profile.items[itemToSlotID]) {
+              profile.items[itemToSlotID] = { attributes: { variants: [] } };
+            }
+            for (let i in Variants) {
+              if (typeof Variants[i] != "object") continue;
+              if (!Variants[i].channel) continue;
+              if (!Variants[i].active) continue;
+
+              let index = profile.items[itemToSlotID].attributes.variants.findIndex(
+                (x: any) => x.channel == Variants[i].channel
+              );
+
+              if (index === -1) {
+                profile.items[itemToSlotID].attributes.variants.push({
+                  channel: Variants[i].channel,
+                  active: Variants[i].active,
+                  owned: Variants[i].owned || []
+                });
+              } else {
+                profile.items[itemToSlotID].attributes.variants[index].active = Variants[i].active;
+              }
+            }
+
+            profileChanges.push({
+              changeType: "itemAttrChanged",
+              itemId: itemToSlotID,
+              attributeName: "variants",
+              attributeValue: profile.items[itemToSlotID].attributes.variants,
+            });
+          }
+
           profile.rvn++;
           profile.commandRevision++;
           break;
