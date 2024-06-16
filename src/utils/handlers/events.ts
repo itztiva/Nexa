@@ -149,8 +149,8 @@ function getEvents(ver: any) {
     if (ver.build == 27.11) {
       // Durian Event
       events.push(createEvent("DL01"));
-      events.push(createEvent("RufusWeek2"))
-      events.push(createEvent("RufusWeek3"))
+  //    events.push(createEvent("RufusWeek2"))
+    //  events.push(createEvent("RufusWeek3"))
       events.push(createEvent("RufusWeek4"))
     }
 
