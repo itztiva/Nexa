@@ -1,7 +1,7 @@
 import { readdir } from "fs/promises";
 import { join } from "path";
 import { Hono } from "hono";
-import logger from "../logs/logger";
+import logger from "../logger/logger";
 
 // thanks skies
 

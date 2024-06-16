@@ -1,7 +1,7 @@
 import app from "..";
 import { Nexa } from "../utils/handlers/errors";
 import jwt from "jsonwebtoken";
-import logger from "../utils/logs/logger";
+import logger from "../utils/logger/logger";
 
 interface requestBody {
   [key: string]: any;

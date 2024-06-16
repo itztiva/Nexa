@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import path from "node:path";
 import { loadRoutes } from "./utils/startup/loadRoutes";
 import { Nexa } from "./utils/handlers/errors";
-import logger from "./utils/logs/logger";
+import logger from "./utils/logger/logger";
 import { cors } from "hono/cors";
 
 const app = new Hono({ strict: false });
