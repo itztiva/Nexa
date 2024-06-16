@@ -56,13 +56,13 @@ export default function () {
         case "ClientQuestLogin":
           break;
         case "EquipBattleRoyaleCustomization":
-          const reqBody = await c.req.json();
+          const body = await c.req.json();
           let statName;
           let itemToSlot;
-          switch (reqBody.slotName) {
+          switch (body.slotName) {
             case "Character":
               statName = "favorite_character";
-              itemToSlot = reqBody.itemToSlot;
+              itemToSlot = body.itemToSlot;
               profile.stats.attributes[statName] = itemToSlot;
               profileChanges.push({
                 changeType: "statModified",
@@ -72,7 +72,7 @@ export default function () {
               break;
             case "Backpack":
               statName = "favorite_backpack";
-              itemToSlot = reqBody.itemToSlot;
+              itemToSlot = body.itemToSlot;
               profile.stats.attributes[statName] = itemToSlot;
               profileChanges.push({
                 changeType: "statModified",
@@ -82,7 +82,7 @@ export default function () {
               break;
             case "Pickaxe":
               statName = "favorite_pickaxe";
-              itemToSlot = reqBody.itemToSlot;
+              itemToSlot = body.itemToSlot;
               profile.stats.attributes[statName] = itemToSlot;
               profileChanges.push({
                 changeType: "statModified",
@@ -92,7 +92,7 @@ export default function () {
               break;
             case "Glider":
               statName = "favorite_glider";
-              itemToSlot = reqBody.itemToSlot;
+              itemToSlot = body.itemToSlot;
               profile.stats.attributes[statName] = itemToSlot;
               profileChanges.push({
                 changeType: "statModified",
@@ -102,7 +102,7 @@ export default function () {
               break;
             case "SkyDiveContrail":
               statName = "favorite_skydivecontrail";
-              itemToSlot = reqBody.itemToSlot;
+              itemToSlot = body.itemToSlot;
               profile.stats.attributes[statName] = itemToSlot;
               profileChanges.push({
                 changeType: "statModified",
@@ -112,7 +112,7 @@ export default function () {
               break;
             case "MusicPack":
               statName = "favorite_musicpack";
-              itemToSlot = reqBody.itemToSlot;
+              itemToSlot = body.itemToSlot;
               profile.stats.attributes[statName] = itemToSlot;
               profileChanges.push({
                 changeType: "statModified",
@@ -122,7 +122,7 @@ export default function () {
               break;
             case "LoadingScreen":
               statName = "favorite_loadingscreen";
-              itemToSlot = reqBody.itemToSlot;
+              itemToSlot = body.itemToSlot;
               profile.stats.attributes[statName] = itemToSlot;
               profileChanges.push({
                 changeType: "statModified",
@@ -132,16 +132,16 @@ export default function () {
               break;
             case "Dance":
             case "ItemWrap":
-              const bIsDance = reqBody.slotName === "Dance";
+              const bIsDance = body.slotName === "Dance";
               statName = bIsDance ? "favorite_dance" : "favorite_itemwraps";
               let arr = profile.stats.attributes[statName] || [];
-              if (reqBody.indexWithinSlot === -1) {
+              if (body.indexWithinSlot === -1) {
                 arr = [];
                 for (let i = 0; i < (bIsDance ? 6 : 7); ++i) {
-                  arr[i] = reqBody.itemToSlot;
+                  arr[i] = body.itemToSlot;
                 }
               } else {
-                arr[reqBody.indexWithinSlot || 0] = reqBody.itemToSlot;
+                arr[body.indexWithinSlot || 0] = body.itemToSlot;
               }
               for (let i = 0; i < arr.length; ++i) {
                 if (arr[i] == null) {
