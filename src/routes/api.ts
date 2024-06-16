@@ -22,10 +22,39 @@ export default function () {
     });
   });
 
+  app.post("/api/v1/fortnite-br/interactions/contentHash", async (c) => {
+    const body: any = c.req.json();
+    return c.json({
+      sessionId: body.sessionId,
+      sessionStartTimestamp: body.sessionStartTimestamp,
+      surfaces: [
+        {
+          surfaceId: "br-motd",
+          contentMeta: [
+            '{"c93adbc7a8a9f94a916de62aa443e2d6":["93eff180-1465-496e-9be4-c02ef810ad82"]}',
+          ],
+          events: [
+            {
+              contentHash: "c93adbc7a8a9f94a916de62aa443e2d6",
+              type: "impression",
+              count: 1,
+              timestamp: "2023-12-03T10:17:41.387Z",
+              lastTimestamp: "2023-12-03T10:17:41.387Z",
+            },
+          ],
+        },
+      ],
+    });
+  });
+
+  app.get("/eulatracking/api/public/agreements/fn/account/*", async (c) => {
+    return c.json([]);
+  });
+
   app.post("/datarouter/api/v1/public/data/clients", async (c) => {
     return c.json([]);
   });
-  
+
   app.post("/telemetry/data/datarouter/api/v1/public/data", async (c) => {
     return c.json([]);
   });
