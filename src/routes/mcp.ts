@@ -55,6 +55,14 @@ export default function () {
       switch (c.req.param("operation")) {
         case "QueryProfile":
           break;
+        case "RedeemRealMoneyPurchases":
+          break;
+        case "SetHardcoreModifier":
+          break;
+        case "AthenaPinQuest":
+          break;
+        case "MarkNewQuestNotificationSent":
+          break;
         case "SetMtxPlatform":
           break;
         case "ClientQuestLogin":
@@ -202,54 +210,91 @@ export default function () {
           profile.commandRevision += 1;
           break;
         case "SetCosmeticLockerSlot": // br locker 2
-           if (body.category && body.lockerItem && body.itemToSlot) {
+          if (body.category && body.lockerItem && body.itemToSlot) {
             let itemToSlot = body.itemToSlot;
             switch (body.category) {
               case "Character":
-                profile.items[body.lockerItem].attributes.locker_slots_data.slots.Character.items = [itemToSlot];
+                profile.items[
+                  body.lockerItem
+                ].attributes.locker_slots_data.slots.Character.items = [
+                  itemToSlot,
+                ];
                 break;
               case "Backpack":
-                profile.items[body.lockerItem].attributes.locker_slots_data.slots.Backpack.items = [itemToSlot];
+                profile.items[
+                  body.lockerItem
+                ].attributes.locker_slots_data.slots.Backpack.items = [
+                  itemToSlot,
+                ];
                 break;
               case "Pickaxe":
-                profile.items[body.lockerItem].attributes.locker_slots_data.slots.Pickaxe.items = [itemToSlot];
+                profile.items[
+                  body.lockerItem
+                ].attributes.locker_slots_data.slots.Pickaxe.items = [
+                  itemToSlot,
+                ];
                 break;
               case "Glider":
-                profile.items[body.lockerItem].attributes.locker_slots_data.slots.Glider.items = [itemToSlot];
+                profile.items[
+                  body.lockerItem
+                ].attributes.locker_slots_data.slots.Glider.items = [
+                  itemToSlot,
+                ];
                 break;
               case "SkyDiveContrail":
-                profile.items[body.lockerItem].attributes.locker_slots_data.slots.SkyDiveContrail.items = [itemToSlot];
+                profile.items[
+                  body.lockerItem
+                ].attributes.locker_slots_data.slots.SkyDiveContrail.items = [
+                  itemToSlot,
+                ];
                 break;
               case "MusicPack":
-                profile.items[body.lockerItem].attributes.locker_slots_data.slots.MusicPack.items = [itemToSlot];
+                profile.items[
+                  body.lockerItem
+                ].attributes.locker_slots_data.slots.MusicPack.items = [
+                  itemToSlot,
+                ];
                 break;
               case "LoadingScreen":
-                profile.items[body.lockerItem].attributes.locker_slots_data.slots.LoadingScreen.items = [itemToSlot];
+                profile.items[
+                  body.lockerItem
+                ].attributes.locker_slots_data.slots.LoadingScreen.items = [
+                  itemToSlot,
+                ];
                 break;
               case "Dance":
                 const indexWithinSlot = body.slotIndex || 0;
                 if (indexWithinSlot >= 0) {
-                  profile.items[body.lockerItem].attributes.locker_slots_data.slots.Dance.items[indexWithinSlot] = itemToSlot;
+                  profile.items[
+                    body.lockerItem
+                  ].attributes.locker_slots_data.slots.Dance.items[
+                    indexWithinSlot
+                  ] = itemToSlot;
                 }
                 break;
               case "ItemWrap":
                 const indexWithinWrap = body.slotIndex || 0;
                 if (indexWithinWrap >= 0) {
-                  profile.items[body.lockerItem].attributes.locker_slots_data.slots.ItemWrap.items[indexWithinWrap] = itemToSlot;
+                  profile.items[
+                    body.lockerItem
+                  ].attributes.locker_slots_data.slots.ItemWrap.items[
+                    indexWithinWrap
+                  ] = itemToSlot;
                 }
                 break;
               default:
                 break;
             }
-        
+
             profile.rvn += 1;
             profile.commandRevision += 1;
-        
+
             profileChanges.push({
               changeType: "itemAttrChanged",
               itemId: body.lockerItem,
               attributeName: "locker_slots_data",
-              attributeValue: profile.items[body.lockerItem].attributes.locker_slots_data,
+              attributeValue:
+                profile.items[body.lockerItem].attributes.locker_slots_data,
             });
           }
           break;
