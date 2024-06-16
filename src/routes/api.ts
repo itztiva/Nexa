@@ -48,6 +48,10 @@ export default function () {
     });
   });
 
+  app.get("/api/v2/interactions/aggregated/Fortnite/:accountId", async (c) => {
+    return c.json([]);
+  })
+
   app.post("/region/check", async (c) => {
     return c.json({
       content_id: "AF9yLAAsklQALFTy",
