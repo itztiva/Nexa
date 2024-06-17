@@ -9,7 +9,7 @@ import crypto from "crypto";
 export default function () {
   app.get("/fortnite/api/discovery/accessToken/*", async (c) => {
     const useragent: any = c.req.header("user-agent");
-    if (!useragent) return c.json(Nexa.internal.invalidUserAgent)
+    if (!useragent) return c.json(Nexa.internal.invalidUserAgent);
     const regex = useragent.match(/\+\+Fortnite\+Release-\d+\.\d+/);
     return c.json({
       branchName: regex[0],
@@ -186,8 +186,7 @@ export default function () {
               GlobalLinkCodeBlacklist: [],
               SurfaceName: "CreativeDiscoverySurface_Frontend",
               TestName: "20.10_4/11/2022_hero_combat_popularConsole",
-              primaryAssetId:
-                "FortCreativeDiscoverySurface:CreativeDiscoverySurface_Frontend",
+              primaryAssetId: "FortCreativeDiscoverySurface:CreativeDiscoverySurface_Frontend",
               GlobalLinkCodeWhitelist: [],
             },
           },
@@ -196,6 +195,12 @@ export default function () {
     };
 
     return c.json(assets);
+  });
+
+  app.post("/fortnite/api/game/v2/creative/discovery/surface/*", async (c) => {
+    const Normal = require(`../../static/discovery/menu.json`);
+
+    return c.json(Normal);
   });
 
   app.post("/api/v1/discovery/surface/*", async (c) => {
@@ -209,9 +214,7 @@ export default function () {
     const Normal = require(`../../static/discovery/menu.json`);
     const Latest = require("../../static/discovery/latest/menu.json");
 
-    const DefaultLinks = Normal.Panels[0].Pages[0].results.map(
-      (result: any) => result.linkData
-    );
+    const DefaultLinks = Normal.Panels[0].Pages[0].results.map((result: any) => result.linkData);
 
     if (ver.build >= 23.5) {
       return c.json(Latest);
@@ -221,37 +224,37 @@ export default function () {
   });
 
   app.get("/links/api/fn/mnemonic/:playlistId/related", async (c) => {
-    const playlistId = c.req.param("playlistId")
-      return c.json({
-        parentLinks: [],
-        links: {
-          [playlistId]: {
-            namespace: "fn",
-            accountId: "epic",
-            creatorName: "Epic",
-            mnemonic: playlistId,
-            linkType: "BR:Playlist",
-            metadata: {
-              image_url: "",
-              image_urls: {
-                url_s: "",
-                url_xs: "",
-                url_m: "",
-                url: "",
-              },
-              matchmaking: {
-                override_playlist: playlistId,
-              },
+    const playlistId = c.req.param("playlistId");
+    return c.json({
+      parentLinks: [],
+      links: {
+        [playlistId]: {
+          namespace: "fn",
+          accountId: "epic",
+          creatorName: "Epic",
+          mnemonic: playlistId,
+          linkType: "BR:Playlist",
+          metadata: {
+            image_url: "",
+            image_urls: {
+              url_s: "",
+              url_xs: "",
+              url_m: "",
+              url: "",
             },
-            version: 95,
-            active: true,
-            disabled: false,
-            created: "2021-10-01T00:56:45.010Z",
-            published: "2021-08-03T15:27:20.251Z",
-            descriptionTags: [],
-            moderationStatus: "Approved",
+            matchmaking: {
+              override_playlist: playlistId,
+            },
           },
-        }, 
+          version: 95,
+          active: true,
+          disabled: false,
+          created: "2021-10-01T00:56:45.010Z",
+          published: "2021-08-03T15:27:20.251Z",
+          descriptionTags: [],
+          moderationStatus: "Approved",
+        },
+      },
     });
   });
 }

@@ -2,7 +2,7 @@
   "_id": "",
   "created": "2022-01-08T22:58:06.983Z",
   "updated": "2022-01-08T22:58:57.261Z",
-  "rvn": 9,
+  "rvn": 11,
   "wipeNumber": 1,
   "accountId": "",
   "profileId": "athena",
@@ -36,7 +36,7 @@
             },
             "Character": {
               "items": [
-                "AthenaCharacter:cid_a_272_athena_commando_f_prime"
+                "AthenaCharacter:CID_002_Athena_Commando_F_Default"
               ],
               "activeVariants": [
                 {
@@ -509,9 +509,9 @@
         ""
       ],
       "favorite_itemwraps": [],
-      "favorite_character": "AthenaCharacter:CID_004_Athena_Commando_F_Default",
+      "favorite_character": "AthenaCharacter:CID_003_Athena_Commando_F_Default",
       "favorite_loadingscreen": ""
     }
   },
-  "commandRevision": 13
+  "commandRevision": 15
 }
