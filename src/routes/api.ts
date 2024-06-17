@@ -107,6 +107,29 @@ export default function () {
     });
   });
 
+  app.get("/launcher/api/public/assets/:platform/:catalogItemId/:appName", async (c) => {
+    const appName = c.req.param("appName");
+    const catalogItemId = c.req.param("catalogItemId");
+    const platform = c.req.param("platform");
+    const label = c.req.query("label");
+    return c.json({
+      appName: appName,
+      labelName: `${label}-${platform}`,
+      buildVersion: `nexa`,
+      catalogItemId: catalogItemId,
+      expires: "9988-09-23T23:59:59.999Z",
+      items: {
+        MANIFEST: {
+          signature: "nexa",
+          distribution: "http://localhost:5535/",
+          path: `Builds/Fortnite/Content/CloudDir/Nexa.manifest`,
+          additionalDistributions: [],
+        },
+      },
+      assetId: appName,
+    });
+  });
+
   app.get("/presence/api/v1/_/:accountId/settings/subscriptions", async (c) => {
     return c.json([]);
   });
@@ -123,10 +146,10 @@ export default function () {
     return c.json([]);
   });
 
-  app.get("/Builds/Fortnite/Content/CloudDir/*.manifest", async (c: any) => {
+  app.get("/Builds/Fortnite/Content/CloudDir/*", async (c: any) => {
     c.header("Content-Type", "application/octet-stream");
-    const manifest: any = fs.readFileSync(
-      path.join(__dirname, "..", "..", "static", "assets", "Moonlight.manifest"),
+    const manifest: any = await fs.promises.readFile(
+      path.join(__dirname, "..", "..", "static", "assets", "Nexa.manifest"),
     );
     return c.body(manifest);
   });
