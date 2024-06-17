@@ -81,6 +81,24 @@ export default function () {
         profile.rvn += 1;
         profile.commandRevision += 1;
         break;
+      case "SetBattleRoyaleBanner":
+        profile.stats.attributes.banner_icon = body.homebaseBannerIconId;
+        profile.stats.attributes.banner_color = body.homebaseBannerColorId;
+
+        profileChanges.push({
+          changeType: "statModified",
+          name: "banner_icon",
+          value: profile.stats.attributes.banner_icon,
+        });
+
+        profileChanges.push({
+          changeType: "statModified",
+          name: "banner_color",
+          value: profile.stats.attributes.banner_color,
+        });
+        profile.rvn += 1;
+        profile.commandRevision += 1;
+        break;
       case "EquipBattleRoyaleCustomization": // br locker 1
         let statName;
         let itemToSlot;

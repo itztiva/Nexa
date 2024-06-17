@@ -2,7 +2,7 @@
   "_id": "",
   "created": "2022-01-08T22:58:06.983Z",
   "updated": "2022-01-08T22:58:57.261Z",
-  "rvn": 12,
+  "rvn": 16,
   "wipeNumber": 1,
   "accountId": "",
   "profileId": "athena",
@@ -515,8 +515,10 @@
         "CosmeticLoadout:LoadoutSchema_Character": {
           "0": "bc62eed6-20b5-4a6c-ab3b-fbb3bee71a72"
         }
-      }
+      },
+      "banner_icon": "StandardBanner31",
+      "banner_color": "DefaultColor1"
     }
   },
-  "commandRevision": 16
+  "commandRevision": 20
 }
