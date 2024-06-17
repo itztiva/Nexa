@@ -27,6 +27,10 @@ To run:
 bun run src/index.ts
 ```
 
+# Used API's
+
+<img src="https://api.nitestats.com/v1/static/ns-logo.png" width="15" title="NiteStats-API"> [NiteStats API](https://nitestats.com/)
+
 # Credits
 
 - [Hybrid](https://github.com/HybridFNBR) for Discovery for 26.30+ and MOTD
