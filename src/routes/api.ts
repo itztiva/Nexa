@@ -134,6 +134,10 @@ export default function () {
     return c.json([]);
   });
 
+  app.all("/presence/api/v1/*", async (c) => {
+    return c.json([]);
+  });
+
   app.get("/eulatracking/api/public/agreements/fn/account/*", async (c) => {
     return c.json([]);
   });
