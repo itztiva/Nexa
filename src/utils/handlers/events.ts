@@ -176,13 +176,13 @@ function getEvents(ver: any) {
       // Durian Event
       events.push(createEvent("DL01"));
       events.push(createEvent("DL02"));
-      if ((config.RufusStage = 2)) {
+      if (config.RufusStage == 2) {
         events.push(createEvent("RufusWeek2"));
       }
-      if ((config.RufusStage = 3)) {
+      if (config.RufusStage == 3) {
         events.push(createEvent("RufusWeek3"));
       }
-      if ((config.RufusStage = 4)) {
+      if (config.RufusStage == 4) {
         events.push(createEvent("RufusWeek4"));
       }
     }
