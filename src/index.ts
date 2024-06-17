@@ -19,8 +19,7 @@ Bun.serve({
 });
 
 app.use(async (c, next) => {
-  if (c.req.path === "/images/icons/gear.png" || c.req.path === "/favicon.ico")
-    await next();
+  if (c.req.path === "/images/icons/gear.png" || c.req.path === "/favicon.ico") await next();
   else {
     await next();
 
