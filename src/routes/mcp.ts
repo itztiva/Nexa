@@ -63,6 +63,24 @@ export default function () {
         break;
       case "ClientQuestLogin":
         break;
+      case "SetAffiliateName":
+        const { affiliateName } = await c.req.json();
+        profile.stats.attributes.mtx_affiliate_set_time = new Date().toISOString();
+        profile.stats.attributes.mtx_affiliate = affiliateName;
+        profileChanges.push({
+          changeType: "statModified",
+          name: "mtx_affiliate_set_time",
+          value: profile.stats.attributes.mtx_affiliate_set_time,
+        });
+
+        profileChanges.push({
+          changeType: "statModified",
+          name: "mtx_affiliate",
+          value: profile.stats.attributes.mtx_affiliate,
+        });
+        profile.rvn += 1;
+        profile.commandRevision += 1;
+        break;
       case "EquipBattleRoyaleCustomization": // br locker 1
         let statName;
         let itemToSlot;
