@@ -52,6 +52,10 @@ export default function () {
     return c.json({});
   });
 
+  app.get("/unknown", async (c) => {
+    return c.json([]);
+  });
+
   app.get("/api/v2/interactions/aggregated/Fortnite/:accountId", async (c) => {
     return c.json([]);
   });

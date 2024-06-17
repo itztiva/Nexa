@@ -181,3 +181,4 @@ static/profiles/*
 static/ClientSettings/*
 .vscode/settings.json
 profiles
+profile_athena.json
