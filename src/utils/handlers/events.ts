@@ -176,6 +176,7 @@ function getEvents(ver: any) {
       // Durian Event
       events.push(createEvent("DL01"));
       events.push(createEvent("DL02"));
+
       if (config.RufusStage == 2) {
         events.push(createEvent("RufusWeek2"));
       }
