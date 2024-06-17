@@ -140,6 +140,27 @@ export default function () {
       }
     }
 
+    if (version.build == 9.4 || version.build == 9.41) {
+      const playlist = content.playlistinformation.playlist_info.playlists;
+
+      for (let i = 0; i < playlist.length; i++) {
+        if (
+          playlist[i].image ===
+            "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlistinformation/v12/12BR_Cyclone_Astronomical_PlaylistTile_Main-1024x512-ab95f8d30d0742ba1759403320a08e4ea6f0faa0.jpg" &&
+          playlist[i].playlist_name === "Playlist_Music_High" &&
+          playlist[i].description ===
+            "Drop into Sweaty Sands for the ride of your life. (Photosensitivity Warning)" &&
+          playlist[i].display_name === "Travis Scott’s Astronomical"
+        ) {
+          playlist[i].image =
+            "https://i.kinja-img.com/image/upload/c_fit,q_60,w_1315/c0wwjgqh8weurqve8zkb.jpg0";
+          playlist[i].description =
+            "Initiate Island Defense Protocol. Emergency hyperfuel jetpacks have been granted. Take to the skies and find cover on sky platforms.";
+          playlist[i].display_name = "The Final Showdown";
+        }
+      }
+    }
+
     if (version.season === 10) {
       content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "seasonx";
     } else if (version.season === 11) {
