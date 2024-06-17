@@ -2,7 +2,7 @@
   "_id": "",
   "created": "2022-01-08T22:58:06.983Z",
   "updated": "2022-01-08T22:58:57.261Z",
-  "rvn": 11,
+  "rvn": 12,
   "wipeNumber": 1,
   "accountId": "",
   "profileId": "athena",
@@ -36,7 +36,7 @@
             },
             "Character": {
               "items": [
-                "AthenaCharacter:CID_002_Athena_Commando_F_Default"
+                "AthenaCharacter:CID_001_Athena_Commando_F_Default"
               ],
               "activeVariants": [
                 {
@@ -461,6 +461,35 @@
         "xp": 0
       },
       "templateId": "AthenaDance:EID_BoogieDown"
+    },
+    "bc62eed6-20b5-4a6c-ab3b-fbb3bee71a72": {
+      "templateId": "CosmeticLoadout:LoadoutSchema_Character",
+      "attributes": {
+        "slots": [
+          {
+            "slot_template": "CosmeticLoadoutSlotTemplate:LoadoutSlot_Character",
+            "equipped_item": "AthenaCharacter:cid_a_272_athena_commando_f_prime"
+          },
+          {
+            "slot_template": "CosmeticLoadoutSlotTemplate:LoadoutSlot_Backpack"
+          },
+          {
+            "slot_template": "CosmeticLoadoutSlotTemplate:LoadoutSlot_Pickaxe",
+            "equipped_item": "AthenaPickaxe:defaultpickaxe"
+          },
+          {
+            "slot_template": "CosmeticLoadoutSlotTemplate:LoadoutSlot_Glider",
+            "equipped_item": "AthenaGlider:defaultglider"
+          },
+          {
+            "slot_template": "CosmeticLoadoutSlotTemplate:LoadoutSlot_Contrails"
+          },
+          {
+            "slot_template": "CosmeticLoadoutSlotTemplate:LoadoutSlot_Aura"
+          }
+        ]
+      },
+      "quantity": 1
     }
   },
   "stats": {
@@ -510,8 +539,13 @@
       ],
       "favorite_itemwraps": [],
       "favorite_character": "AthenaCharacter:CID_003_Athena_Commando_F_Default",
-      "favorite_loadingscreen": ""
+      "favorite_loadingscreen": "",
+      "loadout_presets": {
+        "CosmeticLoadout:LoadoutSchema_Character": {
+          "0": "bc62eed6-20b5-4a6c-ab3b-fbb3bee71a72"
+        }
+      }
     }
   },
-  "commandRevision": 15
+  "commandRevision": 16
 }
