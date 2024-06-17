@@ -1,3 +1,9 @@
+import ini from "ini";
+import fs from "node:fs";
+import path from "node:path";
+
+var config = ini.parse(fs.readFileSync(path.join(__dirname, "../../config/config.ini"), "utf-8"));
+
 function createEvent(eventType: any) {
   return {
     eventType,
@@ -116,17 +122,17 @@ function getEvents(ver: any) {
     if (ver.build == 18.4 || ver.season == 18) {
       events.push(createEvent("GGL01"));
       events.push(createEvent("GGL02")); // Chapter 2 Finale Event (Countdown)
-      events.push(createEvent("LCCS02")); 
+      events.push(createEvent("LCCS02"));
       events.push(createEvent("LCCS01"));
       events.push(createEvent("LCCSP01"));
-      events.push(createEvent("CTCS01")); 
+      events.push(createEvent("CTCS01"));
       events.push(createEvent("GCFP01"));
       events.push(createEvent("GCMFP01"));
-      events.push(createEvent("CSAWS01")); 
+      events.push(createEvent("CSAWS01"));
       events.push(createEvent("CSAWS02"));
       events.push(createEvent("CSAWS03"));
-      events.push(createEvent("CSAWS04")); 
-      events.push(createEvent("CSAWS05")); 
+      events.push(createEvent("CSAWS04"));
+      events.push(createEvent("CSAWS05"));
     }
 
     if (ver.build == 20.4) {
@@ -170,9 +176,15 @@ function getEvents(ver: any) {
       // Durian Event
       events.push(createEvent("DL01"));
       events.push(createEvent("DL02"));
-      //    events.push(createEvent("RufusWeek2"))
-      //  events.push(createEvent("RufusWeek3"))
-      events.push(createEvent("RufusWeek4"));
+      if ((config.RufusStage = 2)) {
+        events.push(createEvent("RufusWeek2"));
+      }
+      if ((config.RufusStage = 3)) {
+        events.push(createEvent("RufusWeek3"));
+      }
+      if ((config.RufusStage = 4)) {
+        events.push(createEvent("RufusWeek4"));
+      }
     }
 
     if (ver.build == 28.1) {
