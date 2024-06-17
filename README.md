@@ -13,6 +13,8 @@ If you want to contribute just fork this repository and make a pull request!
 
 - Complete MCP
 
+To install bun go [here](https://bun.sh/docs/installation)
+
 To install dependencies:
 
 ```bash
