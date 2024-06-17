@@ -11,9 +11,7 @@ If you want to contribute just fork this repository and make a pull request!
 
 ## Todo
 
-- EOS
-- MCP
-- ClientSettings
+- Complete MCP
 
 To install dependencies:
 
@@ -26,7 +24,6 @@ To run:
 ```bash
 bun run src/index.ts
 ```
-
 
 # Credits
 
