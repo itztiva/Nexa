@@ -2,7 +2,7 @@
   "_id": "",
   "created": "2022-01-08T22:58:06.983Z",
   "updated": "2022-01-08T22:58:57.261Z",
-  "rvn": 6,
+  "rvn": 9,
   "wipeNumber": 1,
   "accountId": "",
   "profileId": "athena",
@@ -509,9 +509,9 @@
         ""
       ],
       "favorite_itemwraps": [],
-      "favorite_character": "",
+      "favorite_character": "AthenaCharacter:CID_004_Athena_Commando_F_Default",
       "favorite_loadingscreen": ""
     }
   },
-  "commandRevision": 10
+  "commandRevision": 13
 }

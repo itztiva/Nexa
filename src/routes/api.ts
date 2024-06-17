@@ -48,6 +48,10 @@ export default function () {
     });
   });
 
+  app.get("/fortnite/api/game/v2/world/info", async (c) => {
+    return c.json({});
+  });
+
   app.get("/api/v2/interactions/aggregated/Fortnite/:accountId", async (c) => {
     return c.json([]);
   });
