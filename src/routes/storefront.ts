@@ -18,7 +18,7 @@ export default function () {
     return c.json([]);
   });
 
-  app.post("/affiliate/api/public/affiliates/slug/:affiliateName", async (c) => {
+  app.get("/affiliate/api/public/affiliates/slug/:affiliateName", async (c) => {
     const affiliateName = c.req.param("affiliateName");
     return c.json({
       id: "aabbccddeeff11223344556677889900",

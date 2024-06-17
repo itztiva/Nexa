@@ -215,10 +215,6 @@ export default function () {
     return c.json({});
   });
 
-  app.get("/affiliate/api/public/affiliates/slug/:affiliateName", async (c) => {
-    return c.json({});
-  });
-
   app.get("/content-controls/:accountId", async (c) => {
     return c.json({});
   });
