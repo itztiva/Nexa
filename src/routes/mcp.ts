@@ -63,6 +63,8 @@ export default function () {
         break;
       case "ClientQuestLogin":
         break;
+      case "RefreshExpeditions":
+        break;
       case "SetAffiliateName":
         const { affiliateName } = await c.req.json();
         profile.stats.attributes.mtx_affiliate_set_time = new Date().toISOString();
