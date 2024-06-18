@@ -2,7 +2,7 @@
   "_id": "",
   "created": "2022-01-08T22:58:06.983Z",
   "updated": "2022-01-08T22:58:57.261Z",
-  "rvn": 16,
+  "rvn": 21,
   "wipeNumber": 1,
   "accountId": "",
   "profileId": "athena",
@@ -496,13 +496,13 @@
       "season_friend_match_boost": 1,
       "active_loadout_index": 1,
       "favorite_musicpack": "",
-      "favorite_glider": "",
-      "favorite_pickaxe": "",
+      "favorite_glider": "AthenaGlider:DefaultGlider",
+      "favorite_pickaxe": "AthenaPickaxe:DefaultPickaxe",
       "favorite_skydivecontrail": "",
       "favorite_backpack": "",
       "favorite_dance": [
-        "",
-        "",
+        "AthenaDance:EID_BoogieDown",
+        "AthenaDance:EID_DanceMoves",
         "",
         "",
         "",
@@ -516,9 +516,9 @@
           "0": "bc62eed6-20b5-4a6c-ab3b-fbb3bee71a72"
         }
       },
-      "banner_icon": "StandardBanner31",
+      "banner_icon": "StandardBanner1",
       "banner_color": "DefaultColor1"
     }
   },
-  "commandRevision": 20
+  "commandRevision": 25
 }

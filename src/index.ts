@@ -28,5 +28,6 @@ app.use(async (c, next) => {
 });
 
 await loadRoutes(path.join(__dirname, "routes"), app);
+await import("./matchmaker/start");
 
 logger.backend("Nexa started on port 5353");
