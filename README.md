@@ -6,6 +6,9 @@ This will be finished during my free time
 
 If you want to contribute just fork this repository and make a pull request!
 
+> [!TIP]
+> Join the discord server for support! https://discord.gg/nexa-1229545680641462282
+
 > [!WARNING]
 > We do not accept any liability for the misuse of this program. Epic Games strictly prohibits the presence of cosmetics not bought from the game's official item shop on private servers, as it breaches the End User License Agreement (EULA).
 
