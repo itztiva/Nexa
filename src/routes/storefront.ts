@@ -3,6 +3,7 @@ import axios from "axios";
 import getVersion from "../utils/handlers/getVersion";
 import path from "path";
 import fs from "fs";
+import { Nexa } from "../utils/handlers/errors";
 
 export default function () {
   app.get("/fortnite/api/storefront/v2/keychain", async (c) => {
@@ -30,6 +31,9 @@ export default function () {
   });
 
   app.get("/fortnite/api/storefront/v2/catalog", async (c) => {
+    const useragent: any = c.req.header("user-agent");
+    if (!useragent) return c.json(Nexa.internal.invalidUserAgent);
+
     const v1 = JSON.parse(
       fs.readFileSync(path.join(__dirname, "../../static/shop/v1.json"), "utf8"),
     ); // to build 26.2

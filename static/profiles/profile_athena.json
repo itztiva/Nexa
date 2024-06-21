@@ -2,7 +2,7 @@
   "_id": "",
   "created": "2022-01-08T22:58:06.983Z",
   "updated": "2022-01-08T22:58:57.261Z",
-  "rvn": 21,
+  "rvn": 22,
   "wipeNumber": 1,
   "accountId": "",
   "profileId": "athena",
@@ -36,7 +36,7 @@
             },
             "Character": {
               "items": [
-                "AthenaCharacter:CID_001_Athena_Commando_F_Default"
+                "AthenaCharacter:CID_003_Athena_Commando_F_Default"
               ],
               "activeVariants": [
                 {
@@ -520,5 +520,5 @@
       "banner_color": "DefaultColor1"
     }
   },
-  "commandRevision": 25
+  "commandRevision": 26
 }

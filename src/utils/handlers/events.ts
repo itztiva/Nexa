@@ -96,6 +96,30 @@ function getEvents(ver: any) {
       events.push(createEvent("FLA01"));
     }
 
+    if (ver.season == 13) {
+      if (config.WaterLevel == 1) {
+        events.push(createEvent("WL1"));
+      }
+      if (config.WaterLevel == 2) {
+        events.push(createEvent("WL2"));
+      }
+      if (config.WaterLevel == 3) {
+        events.push(createEvent("WL3"));
+      }
+      if (config.WaterLevel == 4) {
+        events.push(createEvent("WL4"));
+      }
+      if (config.WaterLevel == 5) {
+        events.push(createEvent("WL5"));
+      }
+      if (config.WaterLevel == 6) {
+        events.push(createEvent("WL6"));
+      }
+      if (config.WaterLevel == 7) {
+        events.push(createEvent("WL7"));
+      }
+    }
+
     if (ver.build == 13.4) {
       events.push(createEvent("SM1"));
     }
