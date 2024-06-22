@@ -163,30 +163,41 @@ export default function () {
 
     if (version.season === 10) {
       content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "seasonx";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
     } else if (version.season === 11) {
       if (version.build === 11.31 || version.build === 11.4) {
         content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "Winter19";
+        content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
       } else {
         content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season11";
+        content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
       }
     } else if (version.season === 12) {
       content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season12";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
     } else if (version.season === 13) {
       content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season13";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
     } else if (version.season === 14) {
       content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season14";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
     } else if (version.season === 15) {
       content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season15";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
+
       if (version.build === 15.1) {
         content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season15xmas";
         content.dynamicbackgrounds.backgrounds.backgrounds[1].stage = "XmasStore2020";
       }
     } else if (version.season === 16) {
       content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season16";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
     } else if (version.season === 17) {
       content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season17";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
     } else if (version.season === 18) {
       content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season18";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
     } else if (version.season === 19) {
       if (version.build === 19.01) {
         content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "winter2021";
@@ -194,6 +205,7 @@ export default function () {
           "https://cdn2.unrealengine.com/t-bp19-lobby-xmas-2048x1024-f85d2684b4af.png";
       } else {
         content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "season19";
+        content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
       }
     } else if (version.season === 20) {
       if (version.build === 20.4) {
@@ -277,10 +289,10 @@ export default function () {
           "https://cdn2.unrealengine.com/br-lobby-ch5s2-4096x2304-a0879ccdaafc.jpg";
       }
     } else {
-      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage =
-        content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage;
-      content.dynamicbackgrounds.backgrounds.backgrounds[0].stage =
-        content.dynamicbackgrounds.backgrounds.backgrounds[0].stage;
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage = "";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].backgroundimage;
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].stage = "";
+      content.dynamicbackgrounds.backgrounds.backgrounds[0].stage;
     }
 
     return c.json(content);

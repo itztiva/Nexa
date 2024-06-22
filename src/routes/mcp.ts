@@ -328,6 +328,8 @@ export default function () {
           });
         }
         break;
+      case "ClaimMfaEnabled":
+        break;
       case "PutModularCosmeticLoadout": // br locker 3
         const { loadoutType, presetId, loadoutData } = await c.req.json();
         if (!profile.stats.attributes.hasOwnProperty("loadout_presets")) {
