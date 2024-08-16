@@ -369,14 +369,17 @@ export default function () {
         }
 
         const loadoutID = profile.stats.attributes.loadout_presets[loadoutType][presetId];
-        profile.items[loadoutID].attributes = JSON.parse(loadoutData);
+        if (profile.items[loadoutID]) {
+          profile.items[loadoutID].attributes = JSON.parse(loadoutData);
 
-        profileChanges.push({
-          changeType: "itemAttrChanged",
-          itemId: loadoutID,
-          attributeName: "slots",
-          attributeValue: profile.items[loadoutID].attributes.slots,
-        });
+          profileChanges.push({
+            changeType: "itemAttrChanged",
+            itemId: loadoutID,
+            attributeName: "slots",
+            attributeValue: profile.items[loadoutID].attributes.slots,
+          });
+        }
+        break;
         break;
       default:
         break;

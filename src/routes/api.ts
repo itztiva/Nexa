@@ -165,6 +165,15 @@ export default function () {
     return c.body(ini);
   });
 
+  app.get("/Builds/Fortnite/Content/CloudDir/ChunksV4/:chunknum/*", async (c) => {
+    const response = await axios.get(`https://epicgames-download1.akamaized.net${c.req.path}`, {
+      responseType: 'stream'
+    });
+    c.header("Content-Type", "application/octet-stream");
+
+    return c.body(response.data)
+  })
+
   app.post("/fortnite/api/game/v2/grant_access/*", async (c) => {
     c.json({});
     return c.status(204);
