@@ -1,7 +1,7 @@
 {
   "created": "",
   "updated": "",
-  "rvn": 2,
+  "rvn": 3,
   "wipeNumber": 1,
   "accountId": "",
   "profileId": "common_core",
@@ -391,10 +391,10 @@
         "purchases": []
       },
       "undo_cooldowns": [],
-      "mtx_affiliate_set_time": "2024-06-17T23:54:58.563Z",
+      "mtx_affiliate_set_time": "2024-12-13T03:51:56.381Z",
       "inventory_limit_bonus": 0,
       "current_mtx_platform": "EpicPC",
-      "mtx_affiliate": "tiva",
+      "mtx_affiliate": "f",
       "forced_intro_played": "Coconut",
       "weekly_purchases": {},
       "daily_purchases": {},
@@ -409,5 +409,5 @@
       "gift_history": {}
     }
   },
-  "commandRevision": 1
+  "commandRevision": 2
 }
