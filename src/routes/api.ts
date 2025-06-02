@@ -15,10 +15,12 @@ export default function () {
   app.get("/launcher/api/public/distributionpoints", (c) => {
     return c.json({
       distributions: [
-        "http://localhost:5535/",
-        "https://download.epicgames.com/",
         "https://epicgames-download1.akamaized.net/",
-        "https://fastly-download.epicgames.com/",
+        "https://download.epicgames.com/",
+        "https://download2.epicgames.com/",
+        "https://download3.epicgames.com/",
+        "https://download4.epicgames.com/",
+        "https://nexa.ol.epicgames.com/",
       ],
     });
   });
@@ -107,28 +109,31 @@ export default function () {
     });
   });
 
-  app.get("/launcher/api/public/assets/:platform/:catalogItemId/:appName", async (c) => {
-    const appName = c.req.param("appName");
-    const catalogItemId = c.req.param("catalogItemId");
-    const platform = c.req.param("platform");
-    const label = c.req.query("label");
-    return c.json({
-      appName: appName,
-      labelName: `${label}-${platform}`,
-      buildVersion: `nexa`,
-      catalogItemId: catalogItemId,
-      expires: "9988-09-23T23:59:59.999Z",
-      items: {
-        MANIFEST: {
-          signature: "nexa",
-          distribution: "http://localhost:5535/",
-          path: `Builds/Fortnite/Content/CloudDir/Nexa.manifest`,
-          additionalDistributions: [],
+  app.get(
+    "/launcher/api/public/assets/:platform/:catalogItemId/:appName",
+    async (c) => {
+      const appName = c.req.param("appName");
+      const catalogItemId = c.req.param("catalogItemId");
+      const platform = c.req.param("platform");
+      const label = c.req.query("label");
+      return c.json({
+        appName: appName,
+        labelName: `${label}-${platform}`,
+        buildVersion: `nexa`,
+        catalogItemId: catalogItemId,
+        expires: "9988-09-23T23:59:59.999Z",
+        items: {
+          MANIFEST: {
+            signature: "nexa",
+            distribution: "http://localhost:5535/",
+            path: `Builds/Fortnite/Content/CloudDir/Nexa.manifest`,
+            additionalDistributions: [],
+          },
         },
-      },
-      assetId: appName,
-    });
-  });
+        assetId: appName,
+      });
+    }
+  );
 
   app.get("/presence/api/v1/_/:accountId/settings/subscriptions", async (c) => {
     return c.json([]);
@@ -153,26 +158,32 @@ export default function () {
   app.get("/Builds/Fortnite/Content/CloudDir/*", async (c: any) => {
     c.header("Content-Type", "application/octet-stream");
     const manifest: any = await fs.promises.readFile(
-      path.join(__dirname, "..", "..", "static", "assets", "Nexa.manifest"),
+      path.join(__dirname, "..", "..", "static", "assets", "Nexa.manifest")
     );
     return c.body(manifest);
   });
 
   app.get("/Builds/Fortnite/Content/CloudDir/*.ini", async (c: any) => {
     const ini: any = fs.readFileSync(
-      path.join(__dirname, "..", "..", "static", "assets", "stuff.ini"),
+      path.join(__dirname, "..", "..", "static", "assets", "stuff.ini")
     );
     return c.body(ini);
   });
 
-  app.get("/Builds/Fortnite/Content/CloudDir/ChunksV4/:chunknum/*", async (c) => {
-    const response = await axios.get(`https://epicgames-download1.akamaized.net${c.req.path}`, {
-      responseType: 'stream'
-    });
-    c.header("Content-Type", "application/octet-stream");
+  app.get(
+    "/Builds/Fortnite/Content/CloudDir/ChunksV4/:chunknum/*",
+    async (c) => {
+      const response = await axios.get(
+        `https://epicgames-download1.akamaized.net${c.req.path}`,
+        {
+          responseType: "stream",
+        }
+      );
+      c.header("Content-Type", "application/octet-stream");
 
-    return c.body(response.data)
-  })
+      return c.body(response.data);
+    }
+  );
 
   app.post("/fortnite/api/game/v2/grant_access/*", async (c) => {
     c.json({});
@@ -216,9 +227,12 @@ export default function () {
     return c.json({});
   });
 
-  app.get("/eulatracking/api/public/agreements/fn/account/:accountId", async (c) => {
-    return c.json({});
-  });
+  app.get(
+    "/eulatracking/api/public/agreements/fn/account/:accountId",
+    async (c) => {
+      return c.json({});
+    }
+  );
 
   app.get("/fortnite/api/game/v2/creative/*", async (c) => {
     return c.json({});
